@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.LoggedInController">
+   <children>
+      <Label layoutX="243.0" fx:id="lab_welcome" layoutY="94.0" text="Welcome">
+         <font>
+            <Font name="Montserrat SemiBold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="lab_nation" layoutX="193.0" layoutY="149.0" text="Your nationality is">
+         <font>
+            <Font name="Montserrat SemiBold" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_logout" layoutX="258.0" layoutY="297.0" mnemonicParsing="false" text="Logout">
+         <font>
+            <Font name="Montserrat SemiBold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

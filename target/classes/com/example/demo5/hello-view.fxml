@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.registerController">
+   <children>
+      <AnchorPane prefHeight="499.0" prefWidth="363.0">
+         <children>
+            <Label layoutX="39.0" layoutY="60.0" prefHeight="38.0" prefWidth="232.0" text="Register Now">
+               <font>
+                  <Font name="Montserrat ExtraBold" size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="111.0" prefHeight="38.0" prefWidth="232.0" text="Full Name">
+               <font>
+                  <Font name="Montserrat SemiBold" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_fullname" layoutX="56.0" layoutY="149.0">
+               <font>
+                  <Font name="Montserrat SemiBold" size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="52.0" layoutY="185.0" prefHeight="38.0" prefWidth="232.0" text="Username">
+               <font>
+                  <Font name="Montserrat SemiBold" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="52.0" layoutY="224.0">
+               <font>
+                  <Font name="Montserrat SemiBold" size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="52.0" layoutY="267.0" prefHeight="38.0" prefWidth="232.0" text="Password">
+               <font>
+                  <Font name="Montserrat SemiBold" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_password" layoutX="52.0" layoutY="305.0">
+               <font>
+                  <Font name="Montserrat SemiBold" size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="52.0" layoutY="334.0" prefHeight="38.0" prefWidth="232.0" text="Nationality">
+               <font>
+                  <Font name="Montserrat SemiBold" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn_signup" layoutX="56.0" layoutY="417.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="99.0" style="-fx-background-color: #fc5d80;" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat SemiBold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_login" layoutX="258.0" layoutY="14.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="72.0" style="-fx-border-color: #fc5d80; -fx-background-color: white; -fx-border-width: 2px; -fx-border-radius: 5px;" text="Login" textFill="#fc5d80">
+               <font>
+                  <Font name="Montserrat SemiBold" size="15.0" />
+               </font>
+            </Button>
+            <RadioButton fx:id="rb_thai" layoutX="56.0" layoutY="382.0" mnemonicParsing="false" selected="true" text="Thai">
+               <toggleGroup>
+                  <ToggleGroup fx:id="nation" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="rb_malay" layoutX="120.0" layoutY="382.0" mnemonicParsing="false" text="Malay" toggleGroup="$nation" />
+            <RadioButton fx:id="rb_singa" layoutX="182.0" layoutY="382.0" mnemonicParsing="false" text="Singa" toggleGroup="$nation" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="476.0" prefWidth="313.0">
+         <children>
+            <ImageView fitHeight="537.0" fitWidth="343.0" layoutX="-21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/register.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
