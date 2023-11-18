@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="changedd ui of Login Page and some minor changes to Signup page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/register.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/signin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +108,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -117,6 +125,7 @@
     <MESSAGE value="changed button color of signup" />
     <MESSAGE value="made user dashboard" />
     <MESSAGE value="Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="changedd ui of Login Page and some minor changes to Signup page" />
+    <option name="LAST_COMMIT_MESSAGE" value="changedd ui of Login Page and some minor changes to Signup page" />
   </component>
 </project>
