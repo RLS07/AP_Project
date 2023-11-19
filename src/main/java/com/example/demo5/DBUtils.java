@@ -33,11 +33,11 @@ public class DBUtils {
         }
         Stage stage =(Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle(title);
-        stage.setScene(new Scene(root,680, 500));
+        stage.setScene(new Scene(root,1000, 530));
         stage.show();
 
     }
-    public static void signUpUser(ActionEvent event, String fullname,String username, String password, String nation ){
+    public static void signUpUser(ActionEvent event, String fullname,String username, String password, String  nation,String gender,String dob){
          Connection connection = null;
          PreparedStatement psInsert=null;
          PreparedStatement psCgeckUserExists=null;
@@ -55,11 +55,15 @@ public class DBUtils {
                     alert.setContentText("CANNOT USE this username");
                     alert.show();
                 }else{
-                    psInsert = connection.prepareStatement("INSERT INTO users (full_name,username,password,nationality) VALUES (?,?,?,?)");
+                    psInsert = connection.prepareStatement("INSERT INTO users (full_name,username,password,nationality,gender,dob) VALUES (?,?,?,?,?,?)");
                     psInsert.setString(1,fullname);
                     psInsert.setString(2,username);
                     psInsert.setString(3,password);
                     psInsert.setString(4,nation);
+                    psInsert.setString(5,gender);
+                    psInsert.setString(6,dob);
+
+
                     psInsert.executeUpdate();
 
                     changeScene(event,"logged-in.fxml","Welcome",username,nation);

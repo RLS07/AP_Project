@@ -62,18 +62,18 @@
                         <Font size="12.32" />
                      </font>
                   </Label>
-                  <TextField fx:id="tf_fullname1" layoutX="532.0" layoutY="232.0" prefHeight="25.0" prefWidth="168.0" style="-fx-background-color: E9E7E7;" />
+                  <TextField fx:id="tf_username" layoutX="532.0" layoutY="232.0" prefHeight="25.0" prefWidth="168.0" style="-fx-background-color: E9E7E7;" />
                   <Label layoutX="536.0" layoutY="264.0" prefHeight="25.0" prefWidth="59.0" text="Password">
                      <font>
                         <Font size="12.32" />
                      </font>
                   </Label>
-                  <RadioButton fx:id="rb_gen1" layoutX="755.0" layoutY="233.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="53.0" text="Male">
+                  <RadioButton fx:id="rb_male" layoutX="755.0" layoutY="233.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="53.0" text="Male">
                      <toggleGroup>
                         <ToggleGroup fx:id="male" />
                      </toggleGroup>
                   </RadioButton>
-                  <RadioButton fx:id="rb_gen2" layoutX="817.0" layoutY="233.0" mnemonicParsing="false" text="Female">
+                  <RadioButton fx:id="rb_female" layoutX="817.0" layoutY="233.0" mnemonicParsing="false" text="Female">
                      <toggleGroup>
                         <ToggleGroup fx:id="female" />
                      </toggleGroup>
@@ -83,13 +83,13 @@
                         <Font size="12.32" />
                      </font>
                   </Label>
-                  <PasswordField layoutX="535.0" layoutY="293.0" prefHeight="25.0" prefWidth="399.0" style="-fx-background-color: E9E7E7;" />
+                  <PasswordField fx:id="tf_password" layoutX="535.0" layoutY="293.0" prefHeight="25.0" prefWidth="399.0" style="-fx-background-color: E9E7E7;" />
                   <Label layoutX="536.0" layoutY="327.0" prefHeight="25.0" prefWidth="79.0" text="Date of birth">
                      <font>
                         <Font size="12.32" />
                      </font>
                   </Label>
-                  <DatePicker layoutX="535.0" layoutY="352.0" style="-fx-background-color: E9E7E79E7E7;" />
+                  <DatePicker fx:id="dp_dob" layoutX="535.0" layoutY="352.0" style="-fx-background-color: E9E7E79E7E7;" />
                   <Label layoutX="754.0" layoutY="326.0" prefHeight="25.0" prefWidth="79.0" text="Nationality">
                      <font>
                         <Font size="12.32" />
