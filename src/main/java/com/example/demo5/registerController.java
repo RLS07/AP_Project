@@ -75,7 +75,7 @@ public class registerController implements Initializable {
         btn_login.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-              DBUtils.changeScene(event,"signed-in.fxml","LOGIN",null,null);
+              DBUtils.changeScene(event,"signed-in.fxml","LOGIN",null,null,null,null,null);
             }
         });
     }
