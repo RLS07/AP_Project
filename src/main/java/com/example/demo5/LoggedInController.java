@@ -40,6 +40,7 @@ public class LoggedInController implements Initializable {
             @Override
             public void handle(ActionEvent event) {
                 DBUtils.changeScene(event,"hello-view.fxml","LOGIN!",null,null,null,null,null);
+
             }
         });
 

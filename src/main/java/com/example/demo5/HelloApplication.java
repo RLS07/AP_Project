@@ -15,6 +15,8 @@ public class HelloApplication extends Application {
         stage.setTitle("LOGIN");
         stage.setScene(scene);
         stage.show();
+        stage.setHeight(558);
+        stage.setWidth(985);
     }
 
     public static void main(String[] args) {
