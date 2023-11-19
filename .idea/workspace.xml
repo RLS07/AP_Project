@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="changed button color of signup">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Rectangle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Take Quiz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/m011t0438_g_interrogation_box_07sep22.png" afterDir="false" />
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="debugged the code for login and signup and made login and register scene proper, some part still remain - Rojan">
+      <change afterPath="$PROJECT_DIR$/target/classes/images/Thai.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/Malaysia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/Singapore.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/thailand.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +52,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "abhay",
+    "last_opened_file_path": "C:/Users/chadi/IdeaProjects/ap_project_test/target/classes/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chadi\IdeaProjects\ap_project_test\target\classes\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo5.HelloApplication" />
@@ -66,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
@@ -87,7 +106,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700133066083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1700161608511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700161608511</updated>
+    </task>
+    <task id="LOCAL-00003" summary="debugged the code for login and signup and made login and register scene proper, some part still remain - Rojan">
+      <option name="closed" value="true" />
+      <created>1700377129978</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700377129978</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +136,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="HEAD" />
                       </list>
                     </value>
                   </entry>
@@ -116,6 +151,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changed button color of signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed button color of signup" />
+    <MESSAGE value="made user dashboard" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="changedd ui of Login Page and some minor changes to Signup page" />
+    <MESSAGE value="debugged the code for login and signup and made login and register scene proper, some part still remain - Rojan" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugged the code for login and signup and made login and register scene proper, some part still remain - Rojan" />
   </component>
 </project>

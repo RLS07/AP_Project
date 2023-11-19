@@ -1,27 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.Group?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.LoggedInController">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.LoggedInController">
    <children>
-      <Label layoutX="243.0" fx:id="lab_welcome" layoutY="94.0" text="Welcome">
-         <font>
-            <Font name="Montserrat SemiBold" size="23.0" />
-         </font>
-      </Label>
-      <Label fx:id="lab_nation" layoutX="193.0" layoutY="149.0" text="Your nationality is">
-         <font>
-            <Font name="Montserrat SemiBold" size="23.0" />
-         </font>
-      </Label>
-      <Button fx:id="btn_logout" layoutX="258.0" layoutY="297.0" mnemonicParsing="false" text="Logout">
-         <font>
-            <Font name="Montserrat SemiBold" size="17.0" />
-         </font>
-      </Button>
+      <AnchorPane prefHeight="554.0" prefWidth="299.0">
+         <children>
+            <ImageView fitHeight="554.0" fitWidth="311.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/Frame%202.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="554.0" prefWidth="695.0" style="-fx-background-color: F2EEEE;">
+         <children>
+            <Label fx:id="inf_fullname" layoutX="43.0" layoutY="196.0" prefHeight="34.0" prefWidth="307.0" style="-fx-background-color: D8D6D6; -fx-padding: 10px;" text="Abhay Maskey" textFill="#737171">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lab_welcome" layoutX="42.0" layoutY="83.0" style="-fx-font-family: jost;" text="Abhay Maskey" textFill="#737171">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font>
+            </Label>
+            <Line endX="-100.0" endY="264.0" fill="#737272c9" layoutX="485.0" layoutY="151.0" startX="-100.0" stroke="#737171" />
+            <Text fill="#383838" layoutX="43.0" layoutY="187.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: jost;" text="Full Name " wrappingWidth="59.33333333333326" />
+            <Text layoutX="44.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: jost;" text="Username" />
+            <Group layoutX="43.0" layoutY="298.0" />
+            <Text layoutX="219.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gender" />
+            <Group layoutX="42.0" layoutY="417.0" />
+            <Group layoutX="44.0" layoutY="361.0" />
+            <Label layoutX="45.0" layoutY="309.0" prefHeight="19.0" prefWidth="79.0" text="Nationality">
+               <font>
+                  <Font size="12.32" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="373.0" prefHeight="25.0" prefWidth="79.0" text="Date of birth">
+               <font>
+                  <Font size="12.32" />
+               </font>
+            </Label>
+            <Button id="btn_login" fx:id="btn_logout" layoutX="572.0" layoutY="40.0" lineSpacing="1.15" mnemonicParsing="false" prefHeight="0.0" prefWidth="63.0" style="-fx-background-color: C64A50;" text="Logout" textFill="WHITE" />
+            <Button fx:id="taketest" layoutX="456.0" layoutY="428.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #483BB4; -fx-font-family: Inter;" text="Take Test" textFill="WHITE">
+               <font>
+                  <Font name="Cambria Bold" size="14.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="255.0" fitWidth="217.0" layoutX="416.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/Group%209.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lab_username" layoutX="43.0" layoutY="267.0" prefHeight="29.0" prefWidth="138.0" style="-fx-background-color: D8D6D6; -fx-padding: 10px;" text=" Abbiebulla" textFill="#737171">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lab_dob" layoutX="44.0" layoutY="402.0" prefHeight="29.0" prefWidth="178.0" style="-fx-background-color: D8D6D6; -fx-padding: 10px;" text="               2099/20/62" textFill="#737171">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="lab_gender" layoutX="218.0" layoutY="267.0" prefHeight="29.0" prefWidth="76.0" style="-fx-background-color: D8D6D6; -fx-padding: 10px;" text="      Male" textFill="#737171">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="img_flag" fitHeight="47.0" fitWidth="76.0" layoutX="508.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/thailand.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="lab_nation" alignment="CENTER" layoutX="41.0" layoutY="333.0" prefHeight="29.0" prefWidth="76.0" style="-fx-background-color: D8D6D6; -fx-padding: 10px;" text="Thai" textAlignment="CENTER" textFill="#737171">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
    </children>
-</AnchorPane>
+</HBox>

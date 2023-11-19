@@ -7,6 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 
 import java.net.URL;
+import java.time.LocalDate;
 import java.util.ResourceBundle;
 
 public class registerController implements Initializable {
@@ -21,13 +22,20 @@ public class registerController implements Initializable {
     private RadioButton rb_thai;
     @FXML
     private RadioButton rb_singa;
+
+    @FXML
+    private RadioButton rb_male;
+    @FXML
+    private RadioButton rb_female;
     @FXML
     private TextField tf_username;
     @FXML
     private TextField tf_fullname;
+    @FXML
+    private DatePicker dp_dob;
 
     @FXML
-    private TextField tf_password;
+    private PasswordField tf_password;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -36,13 +44,25 @@ public class registerController implements Initializable {
         rb_singa.setToggleGroup(toggleGroup);
         rb_thai.setToggleGroup(toggleGroup);
         rb_thai.setSelected(true);
+        ToggleGroup genderToggle = new ToggleGroup();
+        rb_male.setToggleGroup(genderToggle);
+        rb_female.setToggleGroup(genderToggle);
+
+
+
+
 
         btn_signup.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
                 String toggleName=((RadioButton) toggleGroup.getSelectedToggle()).getText();
+                String toggleGender=((RadioButton) genderToggle.getSelectedToggle()).getText();
+
+                LocalDate selectedDate = dp_dob.getValue();
+                String formattedDate = selectedDate.toString();
+
                 if(!tf_username.getText().trim().isEmpty() && !tf_password.getText().trim().isEmpty()){
-                    DBUtils.signUpUser(event,tf_fullname.getText(),tf_username.getText(),tf_password.getText(),toggleName);
+                    DBUtils.signUpUser(event,tf_fullname.getText(),tf_username.getText(),tf_password.getText(),toggleName,toggleGender,formattedDate);
                 }else {
                     System.out.println("PLESE FILL ALL INFO");
                     Alert alert=new Alert(Alert.AlertType.ERROR);
@@ -55,7 +75,7 @@ public class registerController implements Initializable {
         btn_login.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-              DBUtils.changeScene(event,"signed-in.fxml","LOGIN",null,null);
+              DBUtils.changeScene(event,"signed-in.fxml","LOGIN",null,null,null,null,null);
             }
         });
     }
