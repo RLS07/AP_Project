@@ -13,6 +13,11 @@
    <children>
       <AnchorPane prefHeight="554.0" prefWidth="985.0">
          <children>
+            <Button fx:id="btn_signup" layoutX="426.0" layoutY="49.0" mnemonicParsing="false" style="-fx-background-color: FF641E; -fx-border-radius: 6.54;" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="Montserrat SemiBold" size="13.0" />
+               </font>
+            </Button>
             <Label layoutX="212.0" layoutY="112.0" style="-fx-font-family: Baloo Bhaina 2; -fx-font-weight: bold;" text="Login" textFill="#ff641e">
                <font>
                   <Font name="Montserrat ExtraBold" size="32.0" />
@@ -40,11 +45,6 @@
                   <Font name="Montserrat SemiBold" size="16.0" />
                </font>
             </Label>
-            <Button fx:id="btn_signup" layoutX="426.0" layoutY="49.0" mnemonicParsing="false" style="-fx-background-color: FF641E; -fx-border-radius: 6.54;" text="Sign Up" textFill="WHITE">
-               <font>
-                  <Font name="Montserrat SemiBold" size="13.0" />
-               </font>
-            </Button>
             <ImageView fitHeight="554.0" fitWidth="458.0" layoutX="564.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../images/bg.png" />

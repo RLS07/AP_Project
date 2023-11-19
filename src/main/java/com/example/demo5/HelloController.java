@@ -32,9 +32,12 @@ public class HelloController implements Initializable {
             @Override
             public void handle(ActionEvent event) {
                 DBUtils.changeScene(event,"hello-view.fxml","SIGNUP!!",null,null,null,null,null);
+                System.out.println("HELO");
+
 
             }
         });
+
 
     }
 }
