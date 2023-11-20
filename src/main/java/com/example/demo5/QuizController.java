@@ -9,11 +9,10 @@ import javafx.scene.image.ImageView;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class QuizController implements Initializable {
+public class QuizController  {
 
     @FXML
     private Label fName;
-    private String fullname;
 
     @FXML
     private Label qNo;
@@ -39,12 +38,20 @@ public class QuizController implements Initializable {
     @FXML
     private Button btn_next;
 
-    @Override
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-        // Initialization logic if needed
+//    @Override
+//    public void initialize(URL url, ResourceBundle resourceBundle) {
+//
+//        // Initialization logic if needed
+//    }
+    private String username2;
+    public void initialize(String username){
+        this.username2=username;
+        System.out.println(username);
     }
     public void setUserInformation(String username, String nation, String fullname, String gender, String dob) {
-        fName.setText(fullname);
+        fName.setText(username);
+        System.out.println("User information set in QuizController: " + username + ", " + nation + ", " + fullname + ", " + gender + ", " + dob);
+
         // Update other UI elements with the user information if needed
     }
 

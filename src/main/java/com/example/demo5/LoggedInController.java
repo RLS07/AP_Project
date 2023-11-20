@@ -16,11 +16,6 @@ public class LoggedInController implements Initializable {
 
     @FXML
     private Button btn_logout;
-    private String username;
-    private String Nation;
-    private String Fullname;
-    private String gender;
-    private String dob;
 
     @FXML
     private Label lab_nation;
@@ -52,9 +47,15 @@ public class LoggedInController implements Initializable {
         taketest.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                DBUtils.changeScene(event, "Quiz.fxml", "Take Quiz", username, Nation, Fullname, gender, dob);
+                String user=lab_username.getText();
+                String nation=lab_nation.getText();
+                DBUtils.changeScene(event, "Quiz.fxml", "Take Quiz", user, nation, "Fullname", "gender", "dob");
+                QuizController quizController=new QuizController();
+                quizController.initialize(user);
             }
+
         });
+
 
 
 
@@ -66,6 +67,7 @@ public class LoggedInController implements Initializable {
         String welcomeText = "Welcome " + username.substring(0, 1).toUpperCase() + username.substring(1) + " !";
         lab_welcome.setText(welcomeText);
         lab_nation.setText(Nation);
+
         inf_fullname.setText(Fullname);
         lab_dob.setText(dob);
         lab_gender.setText(gender);
@@ -90,4 +92,5 @@ public class LoggedInController implements Initializable {
 
 
     }
+
 }
