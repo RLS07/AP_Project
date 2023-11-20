@@ -16,6 +16,11 @@ public class LoggedInController implements Initializable {
 
     @FXML
     private Button btn_logout;
+    private String username;
+    private String Nation;
+    private String Fullname;
+    private String gender;
+    private String dob;
 
     @FXML
     private Label lab_nation;
@@ -33,6 +38,8 @@ public class LoggedInController implements Initializable {
     private Label lab_gender;
     @FXML
     private Label lab_username;
+    @FXML
+    private Button taketest;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -42,6 +49,15 @@ public class LoggedInController implements Initializable {
                 DBUtils.changeScene(event,"hello-view.fxml","LOGIN!",null,null,null,null,null);
             }
         });
+        taketest.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                DBUtils.changeScene(event, "Quiz.fxml", "Take Quiz", username, Nation, Fullname, gender, dob);
+            }
+        });
+
+
+
 
     }
 

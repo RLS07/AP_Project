@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="debugged the code for login and signup and made login and register scene proper, some part still remain - Rojan">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_16_2023_11_47_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_16_2023_11_47_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_17_2023_12_56_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_17_2023_12_56_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_18_2023_12_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_18_2023_12_29_PM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_2023_10_48_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_19_2023_10_48_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_17_2023_12_55_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_17_2023_12_55_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2023_12_31_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2023_12_31_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="managed login and register link">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/image-removebg-preview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,30 +52,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_directory_selection": "C:/Users/chadi/IdeaProjects/ap_project_test/src/main/java/com/example/demo5",
-    "last_opened_file_path": "C:/Users/chadi/IdeaProjects/ap_project_test/src/main/resources/com/example/demo5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/chadi/IdeaProjects/ap_project_test/src/main/java/com/example/demo5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/chadi/IdeaProjects/ap_project_test/src/main/resources/com/example/demo5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chadi\IdeaProjects\ap_project_test\src\main\resources\com\example\demo5" />
       <recent name="C:\Users\chadi\IdeaProjects\ap_project_test\target\classes\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chadi\IdeaProjects\ap_project_test\src\main\resources\com\example\demo5" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,6 +99,7 @@
       <list>
         <item itemvalue="Application.HelloApplication" />
         <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.HelloApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -110,6 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700122558771</updated>
       <workItem from="1700414381307" duration="4670000" />
+      <workItem from="1700459625909" duration="6339000" />
     </task>
     <task id="LOCAL-00001" summary="changed button color of signup">
       <option name="closed" value="true" />

@@ -17,9 +17,16 @@ public class DBUtils {
         if(username !=null & nation!=null){
             try {
                 FXMLLoader loader = new FXMLLoader(DBUtils.class.getResource(fxmlFile));
-                root =loader.load();
-                LoggedInController loggedInController = loader.getController();
-                loggedInController.setUserInformation(username,nation,fullname,gender,dob);
+                root = loader.load();
+
+                // Check the type of controller based on the loaded FXML file
+                if (fxmlFile.equals("logged-in.fxml")) {
+                    LoggedInController loggedInController = loader.getController();
+                    loggedInController.setUserInformation(username, nation, fullname, gender, dob);
+                } else if (fxmlFile.equals("Quiz.fxml")) {
+                    QuizController quizController = loader.getController();
+                    quizController.setUserInformation(username, nation, fullname, gender, dob);
+                }
 
             }catch (IOException e){
                 e.printStackTrace();;
@@ -33,7 +40,7 @@ public class DBUtils {
         }
         Stage stage =(Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setTitle(title);
-        stage.setScene(new Scene(root,1000, 530));
+        stage.setScene(new Scene(root,960, 530));
         stage.show();
 
     }

@@ -10,14 +10,13 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="965.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="965.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.QuizController">
    <children>
       <AnchorPane prefHeight="543.0" prefWidth="973.0" style="-fx-background-color: #EEEEEE;">
          <children>
             <AnchorPane prefHeight="168.0" prefWidth="965.0" style="-fx-background-color: #483BB4;">
                <children>
-                  <Label layoutX="741.0" layoutY="37.0" prefHeight="35.0" prefWidth="131.0" text="Abhay Maskey" textFill="WHITE">
+                  <Label fx:id="fName" layoutX="741.0" layoutY="37.0" prefHeight="35.0" prefWidth="131.0" text="Abhay Maskey" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="18.0" />
                      </font>
@@ -37,7 +36,7 @@
                   <Button layoutX="41.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: transparant;" textFill="WHITE" />
                   <ImageView fitHeight="26.0" fitWidth="39.0" layoutX="28.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../../../images/arrow%20logo.png" />
+                        <Image url="@../../../images/arrow_logo.png" />
                      </image>
                   </ImageView>
                </children>
