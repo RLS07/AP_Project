@@ -1,0 +1,180 @@
+Index: target/classes/com/example/demo5/hello-view.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.Button?>\r\n<?import javafx.scene.control.DatePicker?>\r\n<?import javafx.scene.control.Label?>\r\n<?import javafx.scene.control.PasswordField?>\r\n<?import javafx.scene.control.RadioButton?>\r\n<?import javafx.scene.control.TextField?>\r\n<?import javafx.scene.control.ToggleGroup?>\r\n<?import javafx.scene.image.Image?>\r\n<?import javafx.scene.image.ImageView?>\r\n<?import javafx.scene.layout.AnchorPane?>\r\n<?import javafx.scene.layout.HBox?>\r\n<?import javafx.scene.text.Font?>\r\n\r\n<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"558.0\" prefWidth=\"985.0\" xmlns=\"http://javafx.com/javafx/20.0.1\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"com.example.demo5.registerController\">\r\n   <children>\r\n      <AnchorPane prefHeight=\"554.0\" prefWidth=\"985.0\" style=\"-fx-background-color: F2EEEE;\">\r\n         <children>\r\n            <AnchorPane layoutX=\"-3.0\" prefHeight=\"558.0\" prefWidth=\"987.0\" style=\"-fx-background-color: F2EEEE;\">\r\n               <children>\r\n                  <ImageView fitHeight=\"558.0\" fitWidth=\"436.0\" layoutX=\"-9.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n                     <image>\r\n                        <Image url=\"@../../../images/Rectangle.png\" />\r\n                     </image>\r\n                  </ImageView>\r\n                  <ImageView fitHeight=\"588.0\" fitWidth=\"824.0\" layoutX=\"14.0\" layoutY=\"-30.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n                     <image>\r\n                        <Image url=\"@../../../images/m011t0438_g_interrogation_box_07sep22.png\" />\r\n                     </image>\r\n                  </ImageView>\r\n                  <Label layoutX=\"534.0\" layoutY=\"137.0\" prefHeight=\"25.0\" prefWidth=\"63.0\" text=\"Full Name\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <TextField fx:id=\"tf_fullname\" layoutX=\"532.0\" layoutY=\"169.0\" prefHeight=\"25.0\" prefWidth=\"399.0\" style=\"-fx-background-color: E9E7E7;\" />\r\n                  <Button fx:id=\"btn_signup\" layoutX=\"641.0\" layoutY=\"428.0\" mnemonicParsing=\"false\" prefHeight=\"45.0\" prefWidth=\"138.0\" style=\"-fx-background-color: C64A50; -fx-font-family: Inter;\" text=\"Sign Up\" textFill=\"WHITE\">\r\n                     <font>\r\n                        <Font name=\"Cambria Bold\" size=\"14.0\" />\r\n                     </font>\r\n                  </Button>\r\n                  <RadioButton fx:id=\"rb_thai\" layoutX=\"752.0\" layoutY=\"360.0\" mnemonicParsing=\"false\" selected=\"true\" text=\"Thai\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"nation\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <RadioButton fx:id=\"rb_malay\" layoutX=\"816.0\" layoutY=\"360.0\" mnemonicParsing=\"false\" text=\"Malay\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"nation\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <RadioButton fx:id=\"rb_singa\" layoutX=\"878.0\" layoutY=\"360.0\" mnemonicParsing=\"false\" text=\"Singa\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"nation\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <Button id=\"btn_login\" fx:id=\"btn_login\" layoutX=\"871.0\" layoutY=\"42.0\" lineSpacing=\"1.15\" mnemonicParsing=\"false\" prefHeight=\"0.0\" prefWidth=\"63.0\" style=\"-fx-background-color: C64A50;\" text=\"login\" textFill=\"WHITE\" />\r\n\r\n                  <Label layoutX=\"534.0\" layoutY=\"200.0\" prefHeight=\"25.0\" prefWidth=\"63.0\" text=\"Username\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <TextField fx:id=\"tf_fullname1\" layoutX=\"532.0\" layoutY=\"232.0\" prefHeight=\"25.0\" prefWidth=\"168.0\" style=\"-fx-background-color: E9E7E7;\" />\r\n                  <Label layoutX=\"536.0\" layoutY=\"264.0\" prefHeight=\"25.0\" prefWidth=\"59.0\" text=\"Password\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <RadioButton fx:id=\"rb_gen1\" layoutX=\"755.0\" layoutY=\"233.0\" mnemonicParsing=\"false\" prefHeight=\"17.0\" prefWidth=\"53.0\" text=\"Male\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"male\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <RadioButton fx:id=\"rb_gen2\" layoutX=\"817.0\" layoutY=\"233.0\" mnemonicParsing=\"false\" text=\"Female\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"female\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <Label layoutX=\"760.0\" layoutY=\"200.0\" prefHeight=\"25.0\" prefWidth=\"44.0\" text=\"Gender\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <PasswordField layoutX=\"535.0\" layoutY=\"293.0\" prefHeight=\"25.0\" prefWidth=\"399.0\" style=\"-fx-background-color: E9E7E7;\" />\r\n                  <Label layoutX=\"536.0\" layoutY=\"327.0\" prefHeight=\"25.0\" prefWidth=\"79.0\" text=\"Date of birth\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <DatePicker layoutX=\"535.0\" layoutY=\"352.0\" style=\"-fx-background-color: E9E7E79E7E7;\" />\r\n                  <Label layoutX=\"754.0\" layoutY=\"326.0\" prefHeight=\"25.0\" prefWidth=\"79.0\" text=\"Nationality\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <ImageView fitHeight=\"45.0\" fitWidth=\"44.0\" layoutX=\"454.0\" layoutY=\"32.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n                     <image>\r\n                        <Image url=\"@../../../images/Take%20Quiz.png\" />\r\n                     </image>\r\n                  </ImageView>\r\n                  <Label layoutX=\"640.0\" layoutY=\"77.0\" prefHeight=\"45.0\" prefWidth=\"119.0\" text=\"Register\" textFill=\"#c64a50\">\r\n                     <font>\r\n                        <Font name=\"Berlin Sans FB\" size=\"36.0\" />\r\n                     </font>\r\n                  </Label>\r\n               </children>\r\n            </AnchorPane>\r\n         </children>\r\n      </AnchorPane>\r\n   </children>\r\n</HBox>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/com/example/demo5/hello-view.fxml b/target/classes/com/example/demo5/hello-view.fxml
+--- a/target/classes/com/example/demo5/hello-view.fxml	(revision 86776b62eee5667a94cfcedddcb828c205601dc7)
++++ b/target/classes/com/example/demo5/hello-view.fxml	(date 1700375906035)
+@@ -42,17 +42,17 @@
+                   </Button>
+                   <RadioButton fx:id="rb_thai" layoutX="752.0" layoutY="360.0" mnemonicParsing="false" selected="true" text="Thai">
+                      <toggleGroup>
+-                        <ToggleGroup fx:id="nation" />
++                        <ToggleGroup fx:id="nation1" />
+                      </toggleGroup>
+                   </RadioButton>
+                   <RadioButton fx:id="rb_malay" layoutX="816.0" layoutY="360.0" mnemonicParsing="false" text="Malay">
+                      <toggleGroup>
+-                        <ToggleGroup fx:id="nation" />
++                        <ToggleGroup fx:id="nation2" />
+                      </toggleGroup>
+                   </RadioButton>
+                   <RadioButton fx:id="rb_singa" layoutX="878.0" layoutY="360.0" mnemonicParsing="false" text="Singa">
+                      <toggleGroup>
+-                        <ToggleGroup fx:id="nation" />
++                        <ToggleGroup fx:id="nation3" />
+                      </toggleGroup>
+                   </RadioButton>
+                   <Button id="btn_login" fx:id="btn_login" layoutX="871.0" layoutY="42.0" lineSpacing="1.15" mnemonicParsing="false" prefHeight="0.0" prefWidth="63.0" style="-fx-background-color: C64A50;" text="login" textFill="WHITE" />
+@@ -97,7 +97,7 @@
+                   </Label>
+                   <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="454.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+-                        <Image url="@../../../images/Take%20Quiz.png" />
++                        <Image url="@../../../images/Take Quiz 2.png" />
+                      </image>
+                   </ImageView>
+                   <Label layoutX="640.0" layoutY="77.0" prefHeight="45.0" prefWidth="119.0" text="Register" textFill="#c64a50">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8cc2833b-f04f-4b16-85eb-1d823a082883\" name=\"Changes\" comment=\"changedd ui of Login Page and some minor changes to Signup page\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/images/register.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/images/signin.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2YFXythOWKoUA2dmtObjrlJw6N2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;abhay&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"HelloApplication\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.demo5.HelloApplication\" />\r\n      <module name=\"demo5\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.example.demo5.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.HelloApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8cc2833b-f04f-4b16-85eb-1d823a082883\" name=\"Changes\" comment=\"\" />\r\n      <created>1700122558771</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1700122558771</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"changed button color of signup\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700133066083</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700133066083</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700161608511</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700161608511</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"changed button color of signup\" />\r\n    <MESSAGE value=\"made user dashboard\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n    <MESSAGE value=\"changedd ui of Login Page and some minor changes to Signup page\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"changedd ui of Login Page and some minor changes to Signup page\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 86776b62eee5667a94cfcedddcb828c205601dc7)
++++ b/.idea/workspace.xml	(date 1700376106239)
+@@ -4,14 +4,10 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="changedd ui of Login Page and some minor changes to Signup page">
++    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="checking out">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/register.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/signin.jpg" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -66,6 +62,7 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="Application.HelloApplication" />
++        <item itemvalue="Application.HelloApplication" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -126,6 +123,7 @@
+     <MESSAGE value="made user dashboard" />
+     <MESSAGE value="Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+     <MESSAGE value="changedd ui of Login Page and some minor changes to Signup page" />
+-    <option name="LAST_COMMIT_MESSAGE" value="changedd ui of Login Page and some minor changes to Signup page" />
++    <MESSAGE value="checking out" />
++    <option name="LAST_COMMIT_MESSAGE" value="checking out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: target/classes/com/example/demo5/signed-in.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.Button?>\r\n<?import javafx.scene.control.Label?>\r\n<?import javafx.scene.control.TextField?>\r\n<?import javafx.scene.image.Image?>\r\n<?import javafx.scene.image.ImageView?>\r\n<?import javafx.scene.layout.AnchorPane?>\r\n<?import javafx.scene.layout.HBox?>\r\n<?import javafx.scene.text.Font?>\r\n\r\n<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"509.0\" prefWidth=\"635.0\" xmlns=\"http://javafx.com/javafx/20.0.1\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"com.example.demo5.HelloController\">\r\n   <children>\r\n      <AnchorPane prefHeight=\"400.0\" prefWidth=\"302.0\">\r\n         <children>\r\n            <ImageView fitHeight=\"508.0\" fitWidth=\"343.0\" layoutX=\"-1.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n               <image>\r\n                  <Image url=\"@../../../images/signin.jpg\" />\r\n               </image>\r\n            </ImageView>\r\n         </children>\r\n      </AnchorPane>\r\n      <AnchorPane prefHeight=\"400.0\" prefWidth=\"301.0\">\r\n         <children>\r\n            <Label layoutX=\"184.0\" layoutY=\"41.0\" text=\"Login\">\r\n               <font>\r\n                  <Font name=\"Montserrat ExtraBold\" size=\"32.0\" />\r\n               </font>\r\n            </Label>\r\n            <Label layoutX=\"165.0\" layoutY=\"105.0\" text=\"Username\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"22.0\" />\r\n               </font>\r\n            </Label>\r\n            <TextField fx:id=\"tf_username\" alignment=\"CENTER_RIGHT\" layoutX=\"106.0\" layoutY=\"150.0\" promptText=\"username\">\r\n               <font>\r\n                  <Font name=\"Montserrat Medium\" size=\"12.0\" />\r\n               </font>\r\n            </TextField>\r\n            <Label layoutX=\"168.0\" layoutY=\"196.0\" text=\"Password\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"22.0\" />\r\n               </font>\r\n            </Label>\r\n            <TextField fx:id=\"tf_password\" alignment=\"CENTER_RIGHT\" layoutX=\"106.0\" layoutY=\"246.0\" promptText=\"password\">\r\n               <font>\r\n                  <Font name=\"Montserrat Medium\" size=\"12.0\" />\r\n               </font>\r\n            </TextField>\r\n            <Button fx:id=\"btn_login\" layoutX=\"203.0\" layoutY=\"297.0\" mnemonicParsing=\"false\" style=\"-fx-background-color: #fcd703;\" text=\"Login\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"18.0\" />\r\n               </font>\r\n            </Button>\r\n            <Label layoutX=\"133.0\" layoutY=\"403.0\" text=\"Need an account?\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"16.0\" />\r\n               </font>\r\n            </Label>\r\n            <Button fx:id=\"btn_signup\" layoutX=\"48.0\" layoutY=\"399.0\" mnemonicParsing=\"false\" style=\"-fx-background-color: white; -fx-border-color: #fcd703; -fx-border-width: 2px; -fx-border-radius: 2px;\" text=\"Sign Up\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"13.0\" />\r\n               </font>\r\n            </Button>\r\n         </children>\r\n      </AnchorPane>\r\n   </children>\r\n</HBox>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/com/example/demo5/signed-in.fxml b/target/classes/com/example/demo5/signed-in.fxml
+--- a/target/classes/com/example/demo5/signed-in.fxml	(revision 86776b62eee5667a94cfcedddcb828c205601dc7)
++++ b/target/classes/com/example/demo5/signed-in.fxml	(date 1700375906036)
+@@ -9,59 +9,57 @@
+ <?import javafx.scene.layout.HBox?>
+ <?import javafx.scene.text.Font?>
+ 
+-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.HelloController">
++<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.HelloController">
+    <children>
+-      <AnchorPane prefHeight="400.0" prefWidth="302.0">
++      <AnchorPane prefHeight="554.0" prefWidth="985.0">
+          <children>
+-            <ImageView fitHeight="508.0" fitWidth="343.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+-               <image>
+-                  <Image url="@../../../images/signin.jpg" />
+-               </image>
+-            </ImageView>
+-         </children>
+-      </AnchorPane>
+-      <AnchorPane prefHeight="400.0" prefWidth="301.0">
+-         <children>
+-            <Label layoutX="184.0" layoutY="41.0" text="Login">
++            <Label layoutX="212.0" layoutY="112.0" style="-fx-font-family: Baloo Bhaina 2; -fx-font-weight: bold;" text="Login" textFill="#ff641e">
+                <font>
+                   <Font name="Montserrat ExtraBold" size="32.0" />
+                </font>
+             </Label>
+-            <Label layoutX="165.0" layoutY="105.0" text="Username">
+-               <font>
+-                  <Font name="Montserrat SemiBold" size="22.0" />
+-               </font>
+-            </Label>
+-            <TextField fx:id="tf_username" alignment="CENTER_RIGHT" layoutX="106.0" layoutY="150.0" promptText="username">
++            <Label layoutX="99.0" layoutY="191.0" style="-fx-font-family: jost;" text="Username" />
++            <TextField fx:id="tf_username" layoutX="98.0" layoutY="216.0" prefHeight="27.0" prefWidth="327.0" promptText="username" style="-fx-background-color: E9E7E7;">
+                <font>
+                   <Font name="Montserrat Medium" size="12.0" />
+                </font>
+             </TextField>
+-            <Label layoutX="168.0" layoutY="196.0" text="Password">
+-               <font>
+-                  <Font name="Montserrat SemiBold" size="22.0" />
+-               </font>
+-            </Label>
+-            <TextField fx:id="tf_password" alignment="CENTER_RIGHT" layoutX="106.0" layoutY="246.0" promptText="password">
++            <Label layoutX="100.0" layoutY="264.0" text="Password" />
++            <TextField fx:id="tf_password" layoutX="98.0" layoutY="290.0" prefHeight="27.0" prefWidth="327.0" promptText="password" style="-fx-background-color: E9E7E7;">
+                <font>
+                   <Font name="Montserrat Medium" size="12.0" />
+                </font>
+             </TextField>
+-            <Button fx:id="btn_login" layoutX="203.0" layoutY="297.0" mnemonicParsing="false" style="-fx-background-color: #fcd703;" text="Login">
++            <Button fx:id="btn_login" layoutX="219.0" layoutY="373.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: FF641E; -fx-background-radius: 6.54; -fx-font-weight: bold;" text="Login" textFill="WHITE">
+                <font>
+                   <Font name="Montserrat SemiBold" size="18.0" />
+                </font>
+             </Button>
+-            <Label layoutX="133.0" layoutY="403.0" text="Need an account?">
++            <Label layoutX="344.0" layoutY="508.0" text="Need an account?">
+                <font>
+                   <Font name="Montserrat SemiBold" size="16.0" />
+                </font>
+             </Label>
+-            <Button fx:id="btn_signup" layoutX="48.0" layoutY="399.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-border-color: #fcd703; -fx-border-width: 2px; -fx-border-radius: 2px;" text="Sign Up">
++            <Button fx:id="btn_signup" layoutX="426.0" layoutY="49.0" mnemonicParsing="false" style="-fx-background-color: FF641E; -fx-border-radius: 6.54;" text="Sign Up" textFill="WHITE">
+                <font>
+                   <Font name="Montserrat SemiBold" size="13.0" />
+                </font>
+             </Button>
++            <ImageView fitHeight="554.0" fitWidth="458.0" layoutX="564.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@../../../images/bg.png" />
++               </image>
++            </ImageView>
++            <ImageView fitHeight="537.0" fitWidth="541.0" layoutX="378.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@../../../images/book.jpg" />
++               </image>
++            </ImageView>
++            <ImageView fitHeight="55.0" fitWidth="50.0" layoutX="39.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@../../../images/Take%20Quiz%202.png" />
++               </image>
++            </ImageView>
+          </children>
+       </AnchorPane>
+    </children>
