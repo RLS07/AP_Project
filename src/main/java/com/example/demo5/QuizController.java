@@ -65,33 +65,38 @@ public class QuizController implements Initializable {
     static int wrong = 0;
 
     private void loadQuestions() {
-        if(counter==0){
-            try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/questions.txt"))) {
-                String line = br.readLine();
-                if (line != null) {
-                    String[] parts = line.split(",");
-                    if (parts.length == 7) {
-                        String question = parts[0];
-                        String optOneText = parts[1];
-                        String optTwoText = parts[2];
-                        String optThreeText = parts[3];
-                        String optFourText = parts[4];
+        try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/questions.txt"))) {
+            String line;
+            for (int i = 0; i < counter && (line = br.readLine()) != null; i++) {
+                // Skip lines until you reach the desired question
+            }
 
-                        questionText.setText(question);
-                        optOne.setText(optOneText);
-                        optTwo.setText(optTwoText);
-                        optThree.setText(optThreeText);
-                        optFour.setText(optFourText);
-                    }
+            line = br.readLine(); // Read the next question
+            if (line != null) {
+                String[] parts = line.split(",");
+                if (parts.length == 7) {
+                    String question = parts[0];
+                    String optOneText = parts[1];
+                    String optTwoText = parts[2];
+                    String optThreeText = parts[3];
+                    String optFourText = parts[4];
+
+                    questionText.setText(question);
+                    optOne.setText(optOneText);
+                    optTwo.setText(optTwoText);
+                    optThree.setText(optThreeText);
+                    optFour.setText(optFourText);
                 }
-
+            }
             } catch (FileNotFoundException e) {
                 throw new RuntimeException(e);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         }
-        }
+
+
+
 
 
 
@@ -103,7 +108,8 @@ public class QuizController implements Initializable {
         btn_next.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                optOne.setText("CHANGED");
+                counter++;
+                loadQuestions();
             }
         });
 

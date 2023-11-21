@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="some quiz changes testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/questions.txt" afterDir="false" />
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="merged main into abhay">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;abhay&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/chadi/IdeaProjects/ap_project_test/src/main/java/com/example/demo5&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/chadi/IdeaProjects/ap_project_test/src/main/resources/com/example/demo5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -108,6 +103,7 @@
       <workItem from="1700459625909" duration="14232000" />
       <workItem from="1700502532539" duration="604000" />
       <workItem from="1700535748878" duration="12408000" />
+      <workItem from="1700587963499" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="changed button color of signup">
       <option name="closed" value="true" />
@@ -173,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700560926004</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="merged main into abhay">
+      <option name="closed" value="true" />
+      <created>1700582461026</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700582461026</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +217,7 @@
     <MESSAGE value="linked quiz from dashboart -rojan" />
     <MESSAGE value="linked quiz from dashboart and added flag with making next button responsive, need to add logic for quiz -rojan" />
     <MESSAGE value="some quiz changes testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="some quiz changes testing" />
+    <MESSAGE value="merged main into abhay" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged main into abhay" />
   </component>
 </project>
