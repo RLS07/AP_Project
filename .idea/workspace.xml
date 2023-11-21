@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="minor bug fixes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Quiz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Take_Quiz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Take_Quiz_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/arrow_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/image-removebg-preview.png" afterDir="false" />
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="Slight changes to the UI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Fail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Fail.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/wrong.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_16_2023_11_47_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_16_2023_11_47_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_17_2023_12_56_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_17_2023_12_56_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_18_2023_12_29_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_18_2023_12_29_PM__Changes_.xml" afterDir="false" />
@@ -18,19 +17,28 @@
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_17_2023_12_55_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_17_2023_12_55_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2023_12_31_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_18_2023_12_31_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/Take Quiz 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/images/Take Quiz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/Take Quiz 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/Take Quiz.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -57,7 +65,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;abhay&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/APproject/lib/mysql-connector-j-8.1.0.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/APproject/src/main/resources/com/example/demo5&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -70,6 +78,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\APproject\src\main\resources\com\example\demo5" />
       <recent name="C:\Users\chadi\IdeaProjects\ap_project_test\target\classes\images" />
     </key>
   </component>
@@ -161,6 +170,7 @@
     <MESSAGE value="changedd ui of Login Page and some minor changes to Signup page" />
     <MESSAGE value="debugged the code for login and signup and made login and register scene proper, some part still remain - Rojan" />
     <MESSAGE value="minor bug fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor bug fixes" />
+    <MESSAGE value="Slight changes to the UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slight changes to the UI" />
   </component>
 </project>
