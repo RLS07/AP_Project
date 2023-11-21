@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="linked quiz from dashboart and added flag with making next button responsive, need to add logic for quiz -rojan">
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="some quiz changes testing">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/questions.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +107,7 @@
       <workItem from="1700414381307" duration="4670000" />
       <workItem from="1700459625909" duration="14232000" />
       <workItem from="1700502532539" duration="604000" />
-      <workItem from="1700535748878" duration="5832000" />
+      <workItem from="1700535748878" duration="12408000" />
     </task>
     <task id="LOCAL-00001" summary="changed button color of signup">
       <option name="closed" value="true" />
@@ -161,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700539837641</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some quiz changes testing">
+      <option name="closed" value="true" />
+      <created>1700560926004</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700560926004</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +212,7 @@
     <MESSAGE value="linked to quiz part&#10;sending data remains -rojan" />
     <MESSAGE value="linked quiz from dashboart -rojan" />
     <MESSAGE value="linked quiz from dashboart and added flag with making next button responsive, need to add logic for quiz -rojan" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked quiz from dashboart and added flag with making next button responsive, need to add logic for quiz -rojan" />
+    <MESSAGE value="some quiz changes testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="some quiz changes testing" />
   </component>
 </project>

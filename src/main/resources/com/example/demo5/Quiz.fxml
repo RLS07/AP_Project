@@ -21,14 +21,14 @@
                         <Font name="System Bold" size="18.0" />
                      </font>
                   </Label>
-                  <Label layoutX="848.0" layoutY="125.0" prefHeight="17.0" prefWidth="15.0" text=" 1" textFill="WHITE" />
+                  <Label fx:id="qNo" layoutX="848.0" layoutY="125.0" prefHeight="17.0" prefWidth="15.0" text=" 1" textFill="WHITE" />
                   <Label layoutX="863.0" layoutY="125.0" text="out of 20" textFill="WHITE" />
                   <ImageView fx:id="flagImg" fitHeight="26.0" fitWidth="49.0" layoutX="873.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@../../../images/thailand.png" />
                      </image>
                   </ImageView>
-                  <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="77.0" layoutY="65.0" prefHeight="93.0" prefWidth="637.0" style="-fx-font-weight: bold;" text="Who Is this guy in Singapore ?" textFill="WHITE">
+                  <Label fx:id="questionText" alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="77.0" layoutY="65.0" prefHeight="93.0" prefWidth="637.0" style="-fx-font-weight: bold;" text="Who Is this guy in Singapore ?" textFill="WHITE">
                      <font>
                         <Font size="22.0" />
                      </font>
@@ -50,7 +50,7 @@
             <Text layoutX="92.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C" />
             <Circle fill="#1f93ff00" layoutX="98.0" layoutY="444.0" radius="24.0" stroke="#957f7f" strokeType="INSIDE" />
             <Text layoutX="94.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" />
-            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="214.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
+            <Button fx:id="opt1clicked" onAction="#opt1clicked" alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="214.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
                <graphic>
                   <Label fx:id="optOne" prefHeight="11.0" prefWidth="431.0" text="Bakarchod">
                      <font>
@@ -59,27 +59,27 @@
                   </Label>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="415.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
+            <Button fx:id="opt2clicked" onAction="#opt2clicked" alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="281.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
                <graphic>
-                  <Label text="Betichod">
+                  <Label fx:id="optTwo" prefHeight="17.0" prefWidth="431.0" text="Madarchod">
                      <font>
                         <Font size="13.0" />
                      </font>
                   </Label>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="348.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
+            <Button fx:id="opt3clicked" onAction="#opt3clicked" alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="348.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
                <graphic>
-                  <Label text="Behnchod">
+                  <Label fx:id="optThree" text="Behnchod">
                      <font>
                         <Font size="13.0" />
                      </font>
                   </Label>
                </graphic>
             </Button>
-            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="281.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
+            <Button fx:id="opt4clicked" onAction="#opt4clicked" alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="415.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
                <graphic>
-                  <Label prefHeight="17.0" prefWidth="431.0" text="Madarchod">
+                  <Label fx:id="optFour" text="Betichod">
                      <font>
                         <Font size="13.0" />
                      </font>

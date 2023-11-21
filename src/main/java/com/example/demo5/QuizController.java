@@ -9,8 +9,13 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
 
 public class QuizController implements Initializable {
 
@@ -39,16 +44,62 @@ public class QuizController implements Initializable {
     private Label optFour;
 
     @FXML
-    private Button btn_next;
+    private Button opt2clicked,opt1clicked,opt3clicked,opt4clicked;
 
-//    @Override
-//    public void initialize(URL url, ResourceBundle resourceBundle) {
-//
-//        // Initialization logic if needed
-//    }
+    @FXML
+    private Button btn_next;
+    @FXML
+    public void opt1clicked(ActionEvent event) {
+    }
+    @FXML
+    public void opt2clicked(ActionEvent event) {
+    }
+    @FXML
+    public void opt3clicked(ActionEvent event) {
+    }
+    @FXML
+    public void opt4clicked(ActionEvent event) {
+    }
+    static int counter=0;
+    static int correct = 0;
+    static int wrong = 0;
+
+    private void loadQuestions() {
+        if(counter==0){
+            try (BufferedReader br = new BufferedReader(new FileReader("src/main/resources/questions.txt"))) {
+                String line = br.readLine();
+                if (line != null) {
+                    String[] parts = line.split(",");
+                    if (parts.length == 7) {
+                        String question = parts[0];
+                        String optOneText = parts[1];
+                        String optTwoText = parts[2];
+                        String optThreeText = parts[3];
+                        String optFourText = parts[4];
+
+                        questionText.setText(question);
+                        optOne.setText(optOneText);
+                        optTwo.setText(optTwoText);
+                        optThree.setText(optThreeText);
+                        optFour.setText(optFourText);
+                    }
+                }
+
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        }
+
+
+
     private String username2;
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        loadQuestions();
         btn_next.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
@@ -57,6 +108,9 @@ public class QuizController implements Initializable {
         });
 
     }
+
+
+
     public void initialize(String username){
         this.username2=username;
 
