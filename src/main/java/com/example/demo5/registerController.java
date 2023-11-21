@@ -77,6 +77,7 @@ public class registerController implements Initializable {
             public void handle(ActionEvent event) {
               DBUtils.changeScene(event,"signed-in.fxml","LOGIN",null,null,null,null,null);
             }
+
         });
     }
 

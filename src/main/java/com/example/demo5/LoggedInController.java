@@ -33,6 +33,8 @@ public class LoggedInController implements Initializable {
     private Label lab_gender;
     @FXML
     private Label lab_username;
+    @FXML
+    private Button taketest;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -43,6 +45,23 @@ public class LoggedInController implements Initializable {
 
             }
         });
+        taketest.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                String user=lab_username.getText();
+                String nation=lab_nation.getText();
+                String fullName=inf_fullname.getText();
+
+                DBUtils.changeScene(event, "Quiz.fxml", "Take Quiz", user, nation, fullName, "gender", "dob");
+                QuizController quizController=new QuizController();
+                quizController.initialize(user);
+            }
+
+        });
+
+
+
+
 
     }
 
@@ -51,6 +70,7 @@ public class LoggedInController implements Initializable {
         String welcomeText = "Welcome " + username.substring(0, 1).toUpperCase() + username.substring(1) + " !";
         lab_welcome.setText(welcomeText);
         lab_nation.setText(Nation);
+
         inf_fullname.setText(Fullname);
         lab_dob.setText(dob);
         lab_gender.setText(gender);
@@ -75,4 +95,5 @@ public class LoggedInController implements Initializable {
 
 
     }
+
 }
