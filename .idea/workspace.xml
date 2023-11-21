@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="linked to quiz part&#10;sending data remains -rojan">
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="linked quiz from dashboart -rojan">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/LoggedInController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Result.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/LoggedInController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,9 @@
       <option name="presentableId" value="Default" />
       <updated>1700122558771</updated>
       <workItem from="1700414381307" duration="4670000" />
-      <workItem from="1700459625909" duration="14167000" />
+      <workItem from="1700459625909" duration="14232000" />
+      <workItem from="1700502532539" duration="604000" />
+      <workItem from="1700535748878" duration="3929000" />
     </task>
     <task id="LOCAL-00001" summary="changed button color of signup">
       <option name="closed" value="true" />
@@ -148,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700471420415</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="linked quiz from dashboart -rojan">
+      <option name="closed" value="true" />
+      <created>1700494854556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700494854556</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +194,7 @@
     <MESSAGE value="changedd ui of Login Page and some minor changes to Signup page" />
     <MESSAGE value="debugged the code for login and signup and made login and register scene proper, some part still remain - Rojan" />
     <MESSAGE value="linked to quiz part&#10;sending data remains -rojan" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked to quiz part&#10;sending data remains -rojan" />
+    <MESSAGE value="linked quiz from dashboart -rojan" />
+    <option name="LAST_COMMIT_MESSAGE" value="linked quiz from dashboart -rojan" />
   </component>
 </project>

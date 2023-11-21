@@ -49,7 +49,9 @@ public class LoggedInController implements Initializable {
             public void handle(ActionEvent event) {
                 String user=lab_username.getText();
                 String nation=lab_nation.getText();
-                DBUtils.changeScene(event, "Quiz.fxml", "Take Quiz", user, nation, "Fullname", "gender", "dob");
+                String fullName=inf_fullname.getText();
+
+                DBUtils.changeScene(event, "Quiz.fxml", "Take Quiz", user, nation, fullName, "gender", "dob");
                 QuizController quizController=new QuizController();
                 quizController.initialize(user);
             }
