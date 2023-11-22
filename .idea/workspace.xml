@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="done fixing quiz result remains">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tick.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Result.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" afterDir="false" />
-    </list>
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="send to quiz result page, redirect to failed page" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +105,7 @@
       <workItem from="1700502532539" duration="604000" />
       <workItem from="1700535748878" duration="12408000" />
       <workItem from="1700587963499" duration="2273000" />
-      <workItem from="1700626032326" duration="26782000" />
+      <workItem from="1700626032326" duration="27415000" />
     </task>
     <task id="LOCAL-00001" summary="changed button color of signup">
       <option name="closed" value="true" />
@@ -215,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700673084097</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="send to quiz result page, redirect to failed page">
+      <option name="closed" value="true" />
+      <created>1700678684081</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1700678684081</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +255,7 @@
     <MESSAGE value="quiz next button made responsive&#10;point system remaining" />
     <MESSAGE value="quiz code added has major errors need to fix" />
     <MESSAGE value="done fixing quiz result remains" />
-    <option name="LAST_COMMIT_MESSAGE" value="done fixing quiz result remains" />
+    <MESSAGE value="send to quiz result page, redirect to failed page" />
+    <option name="LAST_COMMIT_MESSAGE" value="send to quiz result page, redirect to failed page" />
   </component>
 </project>
