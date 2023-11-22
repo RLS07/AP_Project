@@ -126,8 +126,8 @@ public class QuizController implements Initializable {
     public void checkAnswer(int selectedOption) {
         if (questionsList != null && currentQuestionIndex >= 0 && currentQuestionIndex < questionsList.size()) {
             String[] currentQuestion = questionsList.get(currentQuestionIndex);
-            if (currentQuestion.length >= 6) {
-                String answerString = currentQuestion[5].trim();
+            if (currentQuestion.length >= 7) {
+                String answerString = currentQuestion[6].trim();
                 String answerIndexString = answerString.substring(0, 1);
                 try {
                     int correctAnswerIndex = Integer.parseInt(answerIndexString);
@@ -192,7 +192,7 @@ public class QuizController implements Initializable {
         button.setStyle("-fx-text-fill: green;");
     }
     private void setButtonColorwhite(Button button) {
-        button.setStyle("-fx-text-fill: yellow;");
+        button.setStyle("-fx-strikethrough: true;");
     }
     @FXML
     void getpreviousquestion(ActionEvent event) {
@@ -326,18 +326,20 @@ public class QuizController implements Initializable {
 
             System.out.println("Current Logged In Username " + username);
             writeResultsToFile("src/main/resources/results.txt", username);
-            gotoresultpage();
+            gotoresultpage(event);
         } else {
-            int totalQuestions = 20;
-            int questionsAttempted = clickedQuestionsList.size();
+
             System.out.println("Error: Not all questions have been answered.");
+            System.out.println(username);
             displaymesage.setText("Not all questions have been answered.");
 
         }
     }
     @FXML
     private  Label displaymesage;
-    public void gotoresultpage() {
+    public void gotoresultpage(ActionEvent event) {
+
+        DBUtils.changeScene(event,"Result.fxml","Result",username,null,null,null,null);
 
     }
     private void writeResultsToFile(String filePath, String username) {
@@ -452,16 +454,21 @@ public class QuizController implements Initializable {
 
     }
     @FXML
-    public void loadNextQuestion() {
+    void loadNextQuestion(ActionEvent event) {
         if(currentQuestionIndex < questionsList.size() - 1){
-
             currentQuestionIndex++;
+            setButtonColorwhite(btnopt1);
+            setButtonColorwhite(btnopt2);
+            setButtonColorwhite(btnopt3);
+            setButtonColorwhite(btnopt4);
             displayCurrentQuestion();
+            checkAndDisableOptionButtons(currentQuestionIndex);
             answerSelected = false;
             if (currentQuestionIndex >= questionsList.size()) {
 
             }
         }
+
     }
     public void setUserInformation(String username, String nation, String fullname, String gender, String dob) {
         StringBuilder capitalizedFullName = new StringBuilder();

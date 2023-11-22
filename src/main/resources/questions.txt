@@ -16,6 +16,5 @@ What is the national animal of Thailand?, Tiger,  Cow,  Bald Eagle,  Asian Eleph
 What is the national animal of Singapore?, Tiger,  Asian Elephant,  Goat,  Asiatic Lion,null.png,1
 Which of the following is NOT a way to acquire Singaporean citizenship?, By descent,  By birth,  By marriage,  By investment,null.png,4
 Malaysia gained independence from British rule in which year?, 1945,  1957,  1963,  1971,null.png,2
-What is the traditional Malaysian attire often worn during cultural events and celebrations?, Kimono,  Hanbok,  Daura Suruwal,  Baju Karung,null.png,4
 What is the currency used in Thailand?, Baht,  Ringgit,  Rupiah,  Dollar,null.png,1
 Which country flag does the following image represent?, America,  India,  Australia,  Malaysia,malay.png,4

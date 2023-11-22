@@ -1,0 +1,2 @@
+Gga,Gga,5,15,20/20,fail
+Lala,Lala,4,16,20/20,fail
