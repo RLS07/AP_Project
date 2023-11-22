@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="quiz code added has major errors need to fix">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tick.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Fail.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Fail.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/questions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/questions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Fail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Fail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Fail.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Fail.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Quiz.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Result.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/thailand.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +66,15 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "abhay",
     "last_directory_selection": "C:/Users/chadi/IdeaProjects/ap_project_test/src/main/java/com/example/demo5",
-    "last_opened_file_path": "C:/Users/chadi/IdeaProjects/final_AP/src/main/resources/images",
+    "last_opened_file_path": "D:/Ap/APproject/lib/mysql-connector-j-8.1.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
