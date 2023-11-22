@@ -326,7 +326,7 @@ public class QuizController implements Initializable {
 
             System.out.println("Current Logged In Username " + username);
             writeResultsToFile("src/main/resources/results.txt", username);
-            gotoresultpage(event);
+            DBUtils.changeScene(event, "Result.fxml", "RESULTS", username, nat, "fullName", "gender", "dob");
         } else {
 
             System.out.println("Error: Not all questions have been answered.");
@@ -470,6 +470,7 @@ public class QuizController implements Initializable {
         }
 
     }
+    String nat;
     public void setUserInformation(String username, String nation, String fullname, String gender, String dob) {
         StringBuilder capitalizedFullName = new StringBuilder();
         String[] words = fullname.split("\\s+");
@@ -487,7 +488,7 @@ public class QuizController implements Initializable {
 
         // Update other UI elements with the user information if needed
         String imagePath = "/images/" + nation + ".png";
-
+        this.nat=nation;
         try {
             // Use getClass().getResource() to obtain a valid URL
             URL imageUrl = getClass().getResource(imagePath);
