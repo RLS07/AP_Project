@@ -26,8 +26,10 @@ public class DBUtils {
                 } else if (fxmlFile.equals("Quiz.fxml")) {
                     QuizController quizController = loader.getController();
                     quizController.setUserInformation(username, nation, fullname, gender, dob);
+                }else if (fxmlFile.equals("Result.fxml")) {
+                    ResultController resultController = loader.getController();
+                    resultController.setUserInformation(username, nation, fullname, gender, dob);
                 }
-
             }catch (IOException e){
                 e.printStackTrace();;
             }
