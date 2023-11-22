@@ -10,9 +10,16 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="558" prefWidth="985" style="-fx-background-color: #F2EEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.ResultController">
+<AnchorPane prefHeight="558" prefWidth="985" style="-fx-background-color: #F2EEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Result">
    <children>
-      <AnchorPane prefHeight="166.0" prefWidth="985.0" style="-fx-background-color: #87BC51;" />
+      <AnchorPane prefHeight="166.0" prefWidth="985.0" style="-fx-background-color: #87BC51;">
+         <children>
+            <ImageView fx:id="flagImg" fitHeight="32.0" fitWidth="48.0" layoutX="899.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/malay.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
       <ImageView fitHeight="157.0" fitWidth="163.0" layoutX="793.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../images/tick.png" />
@@ -20,14 +27,14 @@
       </ImageView>
       <AnchorPane layoutX="74.0" layoutY="255.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
          <children>
-            <ProgressIndicator fx:id="pieChr" layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="0.93" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: #87BC51;" />
+            <ProgressIndicator layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="0.93" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: #87BC51;" />
             <Text fill="#1e1e1e" layoutX="33.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Jost;" text="Your Score">
                <font>
                   <Font size="24.0" />
                </font>
             </Text>
             <Line endX="100.0" layoutX="123.0" layoutY="139.0" startX="-100.0" stroke="#b5b5b5" />
-            <Label fx:id="scoreInPercent" layoutX="42.0" layoutY="61.0" style="-fx-text-fill: #33BE62;" text="93" textFill="#33be62">
+            <Label layoutX="42.0" layoutY="61.0" style="-fx-text-fill: #33BE62;" text="93" textFill="#33be62">
                <font>
                   <Font size="44.0" />
                </font>
@@ -48,7 +55,7 @@
                </font>
             </Text>
             <Line endX="100.0" layoutX="122.0" layoutY="138.0" startX="-100.0" stroke="#b5b5b5" />
-            <Label fx:id="correct" layoutX="98.0" layoutY="60.0" style="-fx-text-fill: #33BE62;" text="18" textFill="#33be62">
+            <Label layoutX="98.0" layoutY="60.0" style="-fx-text-fill: #33BE62;" text="18" textFill="#33be62">
                <font>
                   <Font size="44.0" />
                </font>
@@ -68,7 +75,7 @@
                   <Font size="24.0" />
                </font>
             </Text>
-            <Label fx:id="incorrect" layoutX="116.0" layoutY="67.0" style="-fx-text-fill: #ba3030;" text="1" textFill="#ba3030">
+            <Label layoutX="116.0" layoutY="67.0" style="-fx-text-fill: #ba3030;" text="1" textFill="#ba3030">
                <font>
                   <Font size="43.0" />
                </font>
@@ -85,12 +92,7 @@
             <Font size="28.32" />
          </font>
       </Text>
-      <Button fx:id="btnFinish" layoutX="804.0" layoutY="468.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="107.0" style="-fx-background-color: #33BE62; -fx-font-family: Jost; -fx-background-radius: 6.4; -fx-font-weight: bold;" text="Finish" />
-      <ImageView fx:id="flagImg" fitHeight="55.0" fitWidth="98.0" layoutX="365.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../images/malay.png" />
-         </image>
-      </ImageView>
+      <Button layoutX="804.0" layoutY="468.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="107.0" style="-fx-background-color: #33BE62; -fx-font-family: Jost; -fx-background-radius: 6.4; -fx-font-weight: bold;" text="Finish" textFill="WHITE" />
       <Label layoutX="79.0" layoutY="192.0" text="Result viewing for">
          <font>
             <Font name="Montserrat Regular" size="24.0" />

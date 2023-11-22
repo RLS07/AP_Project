@@ -1,0 +1,135 @@
+Index: target/classes/com/example/demo5/signed-in.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.Button?>\r\n<?import javafx.scene.control.Label?>\r\n<?import javafx.scene.control.TextField?>\r\n<?import javafx.scene.image.Image?>\r\n<?import javafx.scene.image.ImageView?>\r\n<?import javafx.scene.layout.AnchorPane?>\r\n<?import javafx.scene.layout.HBox?>\r\n<?import javafx.scene.text.Font?>\r\n\r\n<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"509.0\" prefWidth=\"635.0\" xmlns=\"http://javafx.com/javafx/20.0.1\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"com.example.demo5.HelloController\">\r\n   <children>\r\n      <AnchorPane prefHeight=\"400.0\" prefWidth=\"302.0\">\r\n         <children>\r\n            <ImageView fitHeight=\"508.0\" fitWidth=\"343.0\" layoutX=\"-1.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n               <image>\r\n                  <Image url=\"@../../../images/signin.jpg\" />\r\n               </image>\r\n            </ImageView>\r\n         </children>\r\n      </AnchorPane>\r\n      <AnchorPane prefHeight=\"400.0\" prefWidth=\"301.0\">\r\n         <children>\r\n            <Label layoutX=\"184.0\" layoutY=\"41.0\" text=\"Login\">\r\n               <font>\r\n                  <Font name=\"Montserrat ExtraBold\" size=\"32.0\" />\r\n               </font>\r\n            </Label>\r\n            <Label layoutX=\"165.0\" layoutY=\"105.0\" text=\"Username\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"22.0\" />\r\n               </font>\r\n            </Label>\r\n            <TextField fx:id=\"tf_username\" alignment=\"CENTER_RIGHT\" layoutX=\"106.0\" layoutY=\"150.0\" promptText=\"username\">\r\n               <font>\r\n                  <Font name=\"Montserrat Medium\" size=\"12.0\" />\r\n               </font>\r\n            </TextField>\r\n            <Label layoutX=\"168.0\" layoutY=\"196.0\" text=\"Password\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"22.0\" />\r\n               </font>\r\n            </Label>\r\n            <TextField fx:id=\"tf_password\" alignment=\"CENTER_RIGHT\" layoutX=\"106.0\" layoutY=\"246.0\" promptText=\"password\">\r\n               <font>\r\n                  <Font name=\"Montserrat Medium\" size=\"12.0\" />\r\n               </font>\r\n            </TextField>\r\n            <Button fx:id=\"btn_login\" layoutX=\"203.0\" layoutY=\"297.0\" mnemonicParsing=\"false\" style=\"-fx-background-color: #fcd703;\" text=\"Login\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"18.0\" />\r\n               </font>\r\n            </Button>\r\n            <Label layoutX=\"133.0\" layoutY=\"403.0\" text=\"Need an account?\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"16.0\" />\r\n               </font>\r\n            </Label>\r\n            <Button fx:id=\"btn_signup\" layoutX=\"48.0\" layoutY=\"399.0\" mnemonicParsing=\"false\" style=\"-fx-background-color: white; -fx-border-color: #fcd703; -fx-border-width: 2px; -fx-border-radius: 2px;\" text=\"Sign Up\">\r\n               <font>\r\n                  <Font name=\"Montserrat SemiBold\" size=\"13.0\" />\r\n               </font>\r\n            </Button>\r\n         </children>\r\n      </AnchorPane>\r\n   </children>\r\n</HBox>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/com/example/demo5/signed-in.fxml b/target/classes/com/example/demo5/signed-in.fxml
+--- a/target/classes/com/example/demo5/signed-in.fxml	
++++ b/target/classes/com/example/demo5/signed-in.fxml	
+@@ -9,59 +9,57 @@
+ <?import javafx.scene.layout.HBox?>
+ <?import javafx.scene.text.Font?>
+ 
+-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="509.0" prefWidth="635.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.HelloController">
++<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="554.0" prefWidth="986.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.HelloController">
+    <children>
+-      <AnchorPane prefHeight="400.0" prefWidth="302.0">
++      <AnchorPane prefHeight="554.0" prefWidth="985.0">
+          <children>
+-            <ImageView fitHeight="508.0" fitWidth="343.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+-               <image>
+-                  <Image url="@../../../images/signin.jpg" />
+-               </image>
+-            </ImageView>
+-         </children>
+-      </AnchorPane>
+-      <AnchorPane prefHeight="400.0" prefWidth="301.0">
+-         <children>
+-            <Label layoutX="184.0" layoutY="41.0" text="Login">
++            <Label layoutX="212.0" layoutY="112.0" style="-fx-font-family: Baloo Bhaina 2; -fx-font-weight: bold;" text="Login" textFill="#ff641e">
+                <font>
+                   <Font name="Montserrat ExtraBold" size="32.0" />
+                </font>
+             </Label>
+-            <Label layoutX="165.0" layoutY="105.0" text="Username">
+-               <font>
+-                  <Font name="Montserrat SemiBold" size="22.0" />
+-               </font>
+-            </Label>
+-            <TextField fx:id="tf_username" alignment="CENTER_RIGHT" layoutX="106.0" layoutY="150.0" promptText="username">
++            <Label layoutX="99.0" layoutY="191.0" style="-fx-font-family: jost;" text="Username" />
++            <TextField fx:id="tf_username" layoutX="98.0" layoutY="216.0" prefHeight="27.0" prefWidth="327.0" promptText="username" style="-fx-background-color: E9E7E7;">
+                <font>
+                   <Font name="Montserrat Medium" size="12.0" />
+                </font>
+             </TextField>
+-            <Label layoutX="168.0" layoutY="196.0" text="Password">
+-               <font>
+-                  <Font name="Montserrat SemiBold" size="22.0" />
+-               </font>
+-            </Label>
+-            <TextField fx:id="tf_password" alignment="CENTER_RIGHT" layoutX="106.0" layoutY="246.0" promptText="password">
++            <Label layoutX="100.0" layoutY="264.0" text="Password" />
++            <TextField fx:id="tf_password" layoutX="98.0" layoutY="290.0" prefHeight="27.0" prefWidth="327.0" promptText="password" style="-fx-background-color: E9E7E7;">
+                <font>
+                   <Font name="Montserrat Medium" size="12.0" />
+                </font>
+             </TextField>
+-            <Button fx:id="btn_login" layoutX="203.0" layoutY="297.0" mnemonicParsing="false" style="-fx-background-color: #fcd703;" text="Login">
++            <Button fx:id="btn_login" layoutX="219.0" layoutY="373.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: FF641E; -fx-background-radius: 6.54; -fx-font-weight: bold;" text="Login" textFill="WHITE">
+                <font>
+                   <Font name="Montserrat SemiBold" size="18.0" />
+                </font>
+             </Button>
+-            <Label layoutX="133.0" layoutY="403.0" text="Need an account?">
++            <Label layoutX="344.0" layoutY="508.0" text="Need an account?">
+                <font>
+                   <Font name="Montserrat SemiBold" size="16.0" />
+                </font>
+             </Label>
+-            <Button fx:id="btn_signup" layoutX="48.0" layoutY="399.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-border-color: #fcd703; -fx-border-width: 2px; -fx-border-radius: 2px;" text="Sign Up">
++            <Button fx:id="btn_signup" layoutX="426.0" layoutY="49.0" mnemonicParsing="false" style="-fx-background-color: FF641E; -fx-border-radius: 6.54;" text="Sign Up" textFill="WHITE">
+                <font>
+                   <Font name="Montserrat SemiBold" size="13.0" />
+                </font>
+             </Button>
++            <ImageView fitHeight="554.0" fitWidth="458.0" layoutX="564.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@../../../images/bg.png" />
++               </image>
++            </ImageView>
++            <ImageView fitHeight="537.0" fitWidth="541.0" layoutX="378.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@../../../images/book.jpg" />
++               </image>
++            </ImageView>
++            <ImageView fitHeight="55.0" fitWidth="50.0" layoutX="39.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@../../../images/Take%20Quiz%202.png" />
++               </image>
++            </ImageView>
+          </children>
+       </AnchorPane>
+    </children>
+Index: target/classes/com/example/demo5/hello-view.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n\r\n<?import javafx.scene.control.Button?>\r\n<?import javafx.scene.control.DatePicker?>\r\n<?import javafx.scene.control.Label?>\r\n<?import javafx.scene.control.PasswordField?>\r\n<?import javafx.scene.control.RadioButton?>\r\n<?import javafx.scene.control.TextField?>\r\n<?import javafx.scene.control.ToggleGroup?>\r\n<?import javafx.scene.image.Image?>\r\n<?import javafx.scene.image.ImageView?>\r\n<?import javafx.scene.layout.AnchorPane?>\r\n<?import javafx.scene.layout.HBox?>\r\n<?import javafx.scene.text.Font?>\r\n\r\n<HBox maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"558.0\" prefWidth=\"985.0\" xmlns=\"http://javafx.com/javafx/20.0.1\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"com.example.demo5.registerController\">\r\n   <children>\r\n      <AnchorPane prefHeight=\"554.0\" prefWidth=\"985.0\" style=\"-fx-background-color: F2EEEE;\">\r\n         <children>\r\n            <AnchorPane layoutX=\"-3.0\" prefHeight=\"558.0\" prefWidth=\"987.0\" style=\"-fx-background-color: F2EEEE;\">\r\n               <children>\r\n                  <ImageView fitHeight=\"558.0\" fitWidth=\"436.0\" layoutX=\"-9.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n                     <image>\r\n                        <Image url=\"@../../../images/Rectangle.png\" />\r\n                     </image>\r\n                  </ImageView>\r\n                  <ImageView fitHeight=\"588.0\" fitWidth=\"824.0\" layoutX=\"14.0\" layoutY=\"-30.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n                     <image>\r\n                        <Image url=\"@../../../images/m011t0438_g_interrogation_box_07sep22.png\" />\r\n                     </image>\r\n                  </ImageView>\r\n                  <Label layoutX=\"534.0\" layoutY=\"137.0\" prefHeight=\"25.0\" prefWidth=\"63.0\" text=\"Full Name\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <TextField fx:id=\"tf_fullname\" layoutX=\"532.0\" layoutY=\"169.0\" prefHeight=\"25.0\" prefWidth=\"399.0\" style=\"-fx-background-color: E9E7E7;\" />\r\n                  <Button fx:id=\"btn_signup\" layoutX=\"641.0\" layoutY=\"428.0\" mnemonicParsing=\"false\" prefHeight=\"45.0\" prefWidth=\"138.0\" style=\"-fx-background-color: C64A50; -fx-font-family: Inter;\" text=\"Sign Up\" textFill=\"WHITE\">\r\n                     <font>\r\n                        <Font name=\"Cambria Bold\" size=\"14.0\" />\r\n                     </font>\r\n                  </Button>\r\n                  <RadioButton fx:id=\"rb_thai\" layoutX=\"752.0\" layoutY=\"360.0\" mnemonicParsing=\"false\" selected=\"true\" text=\"Thai\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"nation\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <RadioButton fx:id=\"rb_malay\" layoutX=\"816.0\" layoutY=\"360.0\" mnemonicParsing=\"false\" text=\"Malay\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"nation\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <RadioButton fx:id=\"rb_singa\" layoutX=\"878.0\" layoutY=\"360.0\" mnemonicParsing=\"false\" text=\"Singa\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"nation\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <Button id=\"btn_login\" fx:id=\"btn_login\" layoutX=\"871.0\" layoutY=\"42.0\" lineSpacing=\"1.15\" mnemonicParsing=\"false\" prefHeight=\"0.0\" prefWidth=\"63.0\" style=\"-fx-background-color: C64A50;\" text=\"login\" textFill=\"WHITE\" />\r\n\r\n                  <Label layoutX=\"534.0\" layoutY=\"200.0\" prefHeight=\"25.0\" prefWidth=\"63.0\" text=\"Username\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <TextField fx:id=\"tf_fullname1\" layoutX=\"532.0\" layoutY=\"232.0\" prefHeight=\"25.0\" prefWidth=\"168.0\" style=\"-fx-background-color: E9E7E7;\" />\r\n                  <Label layoutX=\"536.0\" layoutY=\"264.0\" prefHeight=\"25.0\" prefWidth=\"59.0\" text=\"Password\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <RadioButton fx:id=\"rb_gen1\" layoutX=\"755.0\" layoutY=\"233.0\" mnemonicParsing=\"false\" prefHeight=\"17.0\" prefWidth=\"53.0\" text=\"Male\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"male\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <RadioButton fx:id=\"rb_gen2\" layoutX=\"817.0\" layoutY=\"233.0\" mnemonicParsing=\"false\" text=\"Female\">\r\n                     <toggleGroup>\r\n                        <ToggleGroup fx:id=\"female\" />\r\n                     </toggleGroup>\r\n                  </RadioButton>\r\n                  <Label layoutX=\"760.0\" layoutY=\"200.0\" prefHeight=\"25.0\" prefWidth=\"44.0\" text=\"Gender\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <PasswordField layoutX=\"535.0\" layoutY=\"293.0\" prefHeight=\"25.0\" prefWidth=\"399.0\" style=\"-fx-background-color: E9E7E7;\" />\r\n                  <Label layoutX=\"536.0\" layoutY=\"327.0\" prefHeight=\"25.0\" prefWidth=\"79.0\" text=\"Date of birth\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <DatePicker layoutX=\"535.0\" layoutY=\"352.0\" style=\"-fx-background-color: E9E7E79E7E7;\" />\r\n                  <Label layoutX=\"754.0\" layoutY=\"326.0\" prefHeight=\"25.0\" prefWidth=\"79.0\" text=\"Nationality\">\r\n                     <font>\r\n                        <Font size=\"12.32\" />\r\n                     </font>\r\n                  </Label>\r\n                  <ImageView fitHeight=\"45.0\" fitWidth=\"44.0\" layoutX=\"454.0\" layoutY=\"32.0\" pickOnBounds=\"true\" preserveRatio=\"true\">\r\n                     <image>\r\n                        <Image url=\"@../../../images/Take%20Quiz.png\" />\r\n                     </image>\r\n                  </ImageView>\r\n                  <Label layoutX=\"640.0\" layoutY=\"77.0\" prefHeight=\"45.0\" prefWidth=\"119.0\" text=\"Register\" textFill=\"#c64a50\">\r\n                     <font>\r\n                        <Font name=\"Berlin Sans FB\" size=\"36.0\" />\r\n                     </font>\r\n                  </Label>\r\n               </children>\r\n            </AnchorPane>\r\n         </children>\r\n      </AnchorPane>\r\n   </children>\r\n</HBox>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/target/classes/com/example/demo5/hello-view.fxml b/target/classes/com/example/demo5/hello-view.fxml
+--- a/target/classes/com/example/demo5/hello-view.fxml	
++++ b/target/classes/com/example/demo5/hello-view.fxml	
+@@ -42,17 +42,17 @@
+                   </Button>
+                   <RadioButton fx:id="rb_thai" layoutX="752.0" layoutY="360.0" mnemonicParsing="false" selected="true" text="Thai">
+                      <toggleGroup>
+-                        <ToggleGroup fx:id="nation" />
++                        <ToggleGroup fx:id="nation1" />
+                      </toggleGroup>
+                   </RadioButton>
+                   <RadioButton fx:id="rb_malay" layoutX="816.0" layoutY="360.0" mnemonicParsing="false" text="Malay">
+                      <toggleGroup>
+-                        <ToggleGroup fx:id="nation" />
++                        <ToggleGroup fx:id="nation2" />
+                      </toggleGroup>
+                   </RadioButton>
+                   <RadioButton fx:id="rb_singa" layoutX="878.0" layoutY="360.0" mnemonicParsing="false" text="Singa">
+                      <toggleGroup>
+-                        <ToggleGroup fx:id="nation" />
++                        <ToggleGroup fx:id="nation3" />
+                      </toggleGroup>
+                   </RadioButton>
+                   <Button id="btn_login" fx:id="btn_login" layoutX="871.0" layoutY="42.0" lineSpacing="1.15" mnemonicParsing="false" prefHeight="0.0" prefWidth="63.0" style="-fx-background-color: C64A50;" text="login" textFill="WHITE" />
+@@ -97,7 +97,7 @@
+                   </Label>
+                   <ImageView fitHeight="45.0" fitWidth="44.0" layoutX="454.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+-                        <Image url="@../../../images/Take%20Quiz.png" />
++                        <Image url="@../../../images/Take Quiz 2.png" />
+                      </image>
+                   </ImageView>
+                   <Label layoutX="640.0" layoutY="77.0" prefHeight="45.0" prefWidth="119.0" text="Register" textFill="#c64a50">

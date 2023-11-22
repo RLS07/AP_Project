@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_11_20_2023_2_19_PM_[Changes]" date="1700469273714" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_20_2023_2_19_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 11/20/2023 2:19 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/demo5/LoggedInController$1.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/demo5/LoggedInController$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_20_2023_2_19_PM_[Changes]/LoggedInController$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/demo5/LoggedInController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/demo5/LoggedInController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_20_2023_2_19_PM_[Changes]/LoggedInController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/images/Take Quiz.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/demo5/HelloApplication.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/demo5/HelloApplication.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_20_2023_2_19_PM_[Changes]/HelloApplication.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/images/Take Quiz 2.png" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>

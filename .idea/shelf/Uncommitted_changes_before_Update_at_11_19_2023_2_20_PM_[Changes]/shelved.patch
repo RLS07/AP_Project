@@ -1,0 +1,179 @@
+Index: src/main/java/com/example/demo5/Quiz.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/example/demo5/Quiz.java b/src/main/java/com/example/demo5/Quiz.java
+new file mode 100644
+--- /dev/null	(date 1700377976357)
++++ b/src/main/java/com/example/demo5/Quiz.java	(date 1700377976357)
+@@ -0,0 +1,4 @@
++package com.example.demo5;
++
++public class Quiz {
++}
+Index: src/main/resources/com/example/demo5/Quiz.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/resources/com/example/demo5/Quiz.fxml b/src/main/resources/com/example/demo5/Quiz.fxml
+new file mode 100644
+--- /dev/null	(date 1700382794086)
++++ b/src/main/resources/com/example/demo5/Quiz.fxml	(date 1700382794086)
+@@ -0,0 +1,98 @@
++<?xml version="1.0" encoding="UTF-8"?>
++
++<?import javafx.scene.control.Button?>
++<?import javafx.scene.control.Label?>
++<?import javafx.scene.image.Image?>
++<?import javafx.scene.image.ImageView?>
++<?import javafx.scene.layout.AnchorPane?>
++<?import javafx.scene.layout.HBox?>
++<?import javafx.scene.shape.Circle?>
++<?import javafx.scene.text.Font?>
++<?import javafx.scene.text.Text?>
++
++
++<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="965.0" style="-fx-background-color: #EEEEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
++   <children>
++      <AnchorPane prefHeight="543.0" prefWidth="973.0" style="-fx-background-color: #EEEEEE;">
++         <children>
++            <AnchorPane prefHeight="168.0" prefWidth="965.0" style="-fx-background-color: #483BB4;">
++               <children>
++                  <Label layoutX="741.0" layoutY="37.0" prefHeight="35.0" prefWidth="131.0" text="Abhay Maskey" textFill="WHITE">
++                     <font>
++                        <Font name="System Bold" size="18.0" />
++                     </font>
++                  </Label>
++                  <Label layoutX="848.0" layoutY="125.0" prefHeight="17.0" prefWidth="15.0" text=" 1" textFill="WHITE" />
++                  <Label layoutX="863.0" layoutY="125.0" text="out of 20" textFill="WHITE" />
++                  <ImageView fitHeight="26.0" fitWidth="49.0" layoutX="873.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
++                     <image>
++                        <Image url="@../../../images/thailand.png" />
++                     </image>
++                  </ImageView>
++                  <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="77.0" layoutY="65.0" prefHeight="93.0" prefWidth="637.0" style="-fx-font-weight: bold;" text="Who Is this guy in Singapore ?" textFill="WHITE">
++                     <font>
++                        <Font size="22.0" />
++                     </font>
++                  </Label>
++                  <Button layoutX="41.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" style="-fx-background-color: transparant;" textFill="WHITE" />
++                  <ImageView fitHeight="26.0" fitWidth="39.0" layoutX="28.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
++                     <image>
++                        <Image url="@../../../images/arrow%20logo.png" />
++                     </image>
++                  </ImageView>
++               </children>
++            </AnchorPane>
++            <Button layoutX="830.0" layoutY="450.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="99.0" style="-fx-background-color: #EC6161; -fx-font-family: baloo bhaina 2; -fx-font-weight: bold; -fx-background-radius: 7.4;" text="Next" textFill="WHITE" />
++            <ImageView fitHeight="233.0" fitWidth="237.0" layoutX="705.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
++               <image>
++                  <Image url="@../../../images/image-removebg-preview.png" />
++               </image>
++            </ImageView>
++            <Circle fill="#1f93ff00" layoutX="97.0" layoutY="243.0" radius="24.0" stroke="#957f7f" strokeType="INSIDE" />
++            <Text layoutX="93.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A" />
++            <Circle fill="#1f93ff00" layoutX="97.0" layoutY="310.0" radius="24.0" stroke="#957f7f" strokeType="INSIDE" />
++            <Text layoutX="93.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" text="B" />
++            <Circle fill="#1f93ff00" layoutX="97.0" layoutY="377.0" radius="24.0" stroke="#957f7f" strokeType="INSIDE" />
++            <Text layoutX="92.0" layoutY="382.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C" />
++            <Circle fill="#1f93ff00" layoutX="98.0" layoutY="444.0" radius="24.0" stroke="#957f7f" strokeType="INSIDE" />
++            <Text layoutX="94.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" />
++            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="214.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
++               <graphic>
++                  <Label prefHeight="11.0" prefWidth="431.0" text="Bakarchod">
++                     <font>
++                        <Font size="13.0" />
++                     </font>
++                  </Label>
++               </graphic>
++            </Button>
++            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="415.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
++               <graphic>
++                  <Label text="Betichod">
++                     <font>
++                        <Font size="13.0" />
++                     </font>
++                  </Label>
++               </graphic>
++            </Button>
++            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="348.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
++               <graphic>
++                  <Label text="Behnchod">
++                     <font>
++                        <Font size="13.0" />
++                     </font>
++                  </Label>
++               </graphic>
++            </Button>
++            <Button alignment="BASELINE_LEFT" contentDisplay="CENTER" layoutX="130.0" layoutY="281.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="487.0" style="-fx-background-color: E2E2E2; -fx-padding: 20px;">
++               <graphic>
++                  <Label prefHeight="17.0" prefWidth="431.0" text="Madarchod">
++                     <font>
++                        <Font size="13.0" />
++                     </font>
++                  </Label>
++               </graphic>
++            </Button>
++         </children>
++      </AnchorPane>
++   </children>
++</HBox>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8cc2833b-f04f-4b16-85eb-1d823a082883\" name=\"Changes\" comment=\"changedd ui of Login Page and some minor changes to Signup page\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/registerController$1.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/registerController$1.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/registerController$2.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/registerController$2.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/registerController.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/registerController.class\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/images/register.jpg\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/target/classes/images/signin.jpg\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2YFXythOWKoUA2dmtObjrlJw6N2\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"abhay\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"advanced.settings\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"HelloApplication\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.example.demo5.HelloApplication\" />\r\n      <module name=\"demo5\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.example.demo5.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.HelloApplication\" />\r\n        <item itemvalue=\"Application.HelloApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8cc2833b-f04f-4b16-85eb-1d823a082883\" name=\"Changes\" comment=\"\" />\r\n      <created>1700122558771</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1700122558771</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"changed button color of signup\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700133066083</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700133066083</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1700161608511</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1700161608511</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"HEAD\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"changed button color of signup\" />\r\n    <MESSAGE value=\"made user dashboard\" />\r\n    <MESSAGE value=\"Merge remote-tracking branch 'origin/abhay' into abhay&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml\" />\r\n    <MESSAGE value=\"changedd ui of Login Page and some minor changes to Signup page\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"changedd ui of Login Page and some minor changes to Signup page\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d9cd30eca4ba1ae99afbd22ad20463e1b47a0852)
++++ b/.idea/workspace.xml	(date 1700381369345)
+@@ -5,26 +5,25 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="changedd ui of Login Page and some minor changes to Signup page">
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/Quiz.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Quiz.fxml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/images/arrow logo.png" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/images/image-removebg-preview.png" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/DBUtils.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/registerController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/hello-view.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/logged-in.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/DBUtils.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/hello-view.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/logged-in.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController$1.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController$2.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/registerController.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/images/register.jpg" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/images/signin.jpg" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="FxmlFile" />
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+@@ -50,6 +49,7 @@
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "abhay",
++    "last_directory_selection": "D:/APproject/src/main/resources/com/example/demo5",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
