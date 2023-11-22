@@ -55,21 +55,62 @@ public class registerController implements Initializable {
         btn_signup.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                String toggleName=((RadioButton) toggleGroup.getSelectedToggle()).getText();
-                String toggleGender=((RadioButton) genderToggle.getSelectedToggle()).getText();
+                String toggleName = getToggleText(toggleGroup);
+                String toggleGender = getToggleText(genderToggle);
 
                 LocalDate selectedDate = dp_dob.getValue();
-                String formattedDate = selectedDate.toString();
+                String formattedDate = selectedDate != null ? selectedDate.toString() : "";
 
-                if(!tf_username.getText().trim().isEmpty() && !tf_password.getText().trim().isEmpty()){
-                    DBUtils.signUpUser(event,tf_fullname.getText(),tf_username.getText(),tf_password.getText(),toggleName,toggleGender,formattedDate);
-                }else {
-                    System.out.println("PLESE FILL ALL INFO");
-                    Alert alert=new Alert(Alert.AlertType.ERROR);
-                    alert.setContentText("PLESE FILL ALL INFO");
+                String emptyField = getFirstEmptyField(tf_fullname.getText(), tf_username.getText(), tf_password.getText(), toggleName, toggleGender, formattedDate);
+
+                if (emptyField != null) {
+                    System.out.println("PLEASE FILL ALL INFO");
+                    Alert alert = new Alert(Alert.AlertType.ERROR);
+                    alert.setContentText("Please fill in all required information. Missing: " + emptyField);
                     alert.show();
+                } else if (!isAgeAbove18(selectedDate)) {
+                    System.out.println("AGE MUST BE ABOVE 18");
+                    Alert alert = new Alert(Alert.AlertType.ERROR);
+                    alert.setContentText("Age must be above 18.");
+                    alert.show();
+                } else {
+                    DBUtils.signUpUser(event, tf_fullname.getText(), tf_username.getText(), tf_password.getText(), toggleName, toggleGender, formattedDate);
                 }
             }
+
+            private String getToggleText(ToggleGroup toggleGroup) {
+                Toggle selectedToggle = toggleGroup.getSelectedToggle();
+                return selectedToggle != null ? ((RadioButton) selectedToggle).getText() : null;
+            }
+
+            private String getFirstEmptyField(String... fields) {
+                for (String field : fields) {
+                    if (field == null || field.trim().isEmpty()) {
+                        return getFieldLabel(field);
+                    }
+                }
+                return null; // All fields are filled
+            }
+            private boolean isAgeAbove18(LocalDate birthDate) {
+                if (birthDate != null) {
+                    LocalDate currentDate = LocalDate.now();
+                    return birthDate.plusYears(18).isBefore(currentDate);
+                }
+                return false; // If birthDate is null, age cannot be determined
+            }
+
+            private String getFieldLabel(String field) {
+                switch (field) {
+                    case null:
+                        return "Date of Birth, Toggle Name, or Toggle Gender";
+                    case "":
+                        return "Full Name, Username, Password";
+                    default:
+                        return field;
+                }
+            }
+
+
         });
 
         btn_login.setOnAction(new EventHandler<ActionEvent>() {
