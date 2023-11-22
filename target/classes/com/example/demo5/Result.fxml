@@ -20,7 +20,7 @@
       </ImageView>
       <AnchorPane layoutX="74.0" layoutY="255.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
          <children>
-            <ProgressIndicator fx:id="pieChr" layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="0.93" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: #87BC51;" />
+            <ProgressIndicator fx:id="pieChr" layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="1.0" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: #87BC51;" />
             <Text fill="#1e1e1e" layoutX="33.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Jost;" text="Your Score">
                <font>
                   <Font size="24.0" />
