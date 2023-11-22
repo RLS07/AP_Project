@@ -79,7 +79,7 @@
             </Label>
             <ImageView fx:id="img_flag" fitHeight="47.0" fitWidth="76.0" layoutX="508.0" layoutY="83.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../images/thailand.png" />
+                  <Image url="@../../../images/thai.png" />
                </image>
             </ImageView>
             <Label fx:id="lab_nation" alignment="CENTER" layoutX="41.0" layoutY="333.0" prefHeight="29.0" prefWidth="76.0" style="-fx-background-color: D8D6D6; -fx-padding: 10px;" text="Thai" textAlignment="CENTER" textFill="#737171">

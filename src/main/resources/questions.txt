@@ -1,21 +1,20 @@
-What is the capital city of Malaysia?,a) Bangkok, b) Jakarta, c) Pattaya, d) Kuala Lumpur,null.png,4
-Which language is spoken in Thailand?,a) Thai, b) Malay, c) Hindi, d) Nepali,null.png,1
-What country currency is this?,a) Thailand, b) Nepal, c) Singapore, d) Malaysia,paisa.png,3
-In Singapore, what is the minimum period of residency required for foreign residents to be eligible for citizenship?,a) 2 years, b) 4 years, c) 6 years, d) 8 years,null.png,2
-What is the name of this bird?,a) Pigeon, b) Crow, c) Sparrow, d) Crimson sunbird,bird.png,4
-What is the legal age to apply for citizenship through naturalization in Malaysia?,a) 15 yrs, b) 18 yrs, c) 21 yrs, d) 25 yrs,null.png,3
-Which iconic structure in Singapore is known for its impressive skyline views?,a) Marina Bay Sands, b) Gardens by the Bay, c) Sentosa Island, d) Merlion Park,null.png,1
-Malaysia gained independence from British rule in which year?,a) 1945, b) 1957, c) 1963, d) 1971,null.png,2
-Which country does the following landmark belong to?,a) Thailand, b) Singapore, c) Nepal, d) Indonesia,SingaLion.png,2
-Which is the tallest twin tower in the world and is located in Kuala Lumpur?,a) Petronas Towers, b) Burj Khalifa, c) Taipei 101, d) Dharahara,null.png,1
-The iconic Merlion statue in Singapore is a mythical creature with the head of a lion and the body of which creature?,a) Fish, b) Dragon, c) Elephant, d) Eagle,null.png,1
-What is the capital city of Thailand?,a) Hanoi, b) Bangkok, c) Phnom Penh, d) Pattaya,null.png,2
-What is the national language of Malaysia?,a) English, b) Nepali, c) Malay, d) Thai,null.png,3
-What is the name of the famous shopping street in Singapore known for its luxury boutiques and vibrant nightlife?,a) Orchard Road, b) Chinatown Street, c) Little India Lane, d) Marina Bay Street,null.png,1
-What is the national animal of Thailand?,a) Tiger, b) Cow, c) Bald Eagle, d) Asian Elephant,null.png,4
-What is the national animal of Singapore?,a) Tiger, b) Asian Elephant, c) Goat, d) Asiatic Lion,null.png,1
-Which of the following is NOT a way to acquire Singaporean citizenship?,a) By descent, b) By birth, c) By marriage, d) By investment,null.png,4
-Malaysia gained independence from British rule in which year?,a) 1945, b) 1957, c) 1963, d) 1971,null.png,2
-What is the traditional Malaysian attire often worn during cultural events and celebrations?,a) Kimono, b) Hanbok, c) Daura Suruwal, d) Baju Karung,null.png,4
-What is the currency used in Thailand?,a) Baht, b) Ringgit, c) Rupiah, d) Dollar,null.png,1
-Which country flag does the following image represent?,a) America, b) India, c) Australia, d) Malaysia,malay.png,4
+What is the capital city of Malaysia?, Bangkok,  Jakarta,  Pattaya,  Kuala Lumpur,null.png,4
+Which language is spoken in Thailand?, Thai,  Malay,  Hindi,  Nepali,null.png,1
+What country currency is this?, Thailand,  Nepal,  Singapore,  Malaysia,paisa.png,3
+In Singapore what is the minimum period of residency required for foreign residents to be eligible for citizenship?, 2 years,  4 years,  6 years,  8 years,null.png,2
+What is the name of this bird?, Pigeon,  Crow,  Sparrow,  Crimson sunbird,bird.png,4
+What is the legal age to apply for citizenship through naturalization in Malaysia?, 15 yrs,  18 yrs,  21 yrs,  25 yrs,null.png,3
+Which iconic structure in Singapore is known for its impressive skyline views?, Marina Bay Sands,  Gardens by the Bay,  Sentosa Island,  Merlion Park,null.png,1
+Malaysia gained independence from British rule in which year?, 1945,  1957,  1963,  1971,null.png,2
+Which country does the following landmark belong to?, Thailand,  Singapore,  Nepal,  Indonesia,SingaLion.png,2
+Which is the tallest twin tower in the world and is located in Kuala Lumpur?, Petronas Towers,  Burj Khalifa,  Taipei 101,  Dharahara,null.png,1
+The iconic Merlion statue in Singapore is a mythical creature with the head of a lion and the body of which creature?, Fish,  Dragon,  Elephant,  Eagle,null.png,1
+What is the capital city of Thailand?, Hanoi,  Bangkok,  Phnom Penh,  Pattaya,null.png,2
+What is the national language of Malaysia?, English,  Nepali,  Malay,  Thai,null.png,3
+What is the name of the famous shopping street in Singapore known for its luxury boutiques and vibrant nightlife?, Orchard Road,  Chinatown Street,  Little India Lane,  Marina Bay Street,null.png,1
+What is the national animal of Thailand?, Tiger,  Cow,  Bald Eagle,  Asian Elephant,null.png,4
+What is the national animal of Singapore?, Tiger,  Asian Elephant,  Goat,  Asiatic Lion,null.png,1
+Which of the following is NOT a way to acquire Singaporean citizenship?, By descent,  By birth,  By marriage,  By investment,null.png,4
+Malaysia gained independence from British rule in which year?, 1945,  1957,  1963,  1971,null.png,2
+What is the currency used in Thailand?, Baht,  Ringgit,  Rupiah,  Dollar,null.png,1
+Which country flag does the following image represent?, America,  India,  Australia,  Malaysia,malay.png,4
