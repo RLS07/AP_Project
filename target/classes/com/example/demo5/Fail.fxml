@@ -10,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="558" prefWidth="985" style="-fx-background-color: #F2EEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.Fail">
+<AnchorPane prefHeight="558" prefWidth="985" style="-fx-background-color: #F2EEEE;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo5.FailController">
    <children>
       <AnchorPane prefHeight="167.0" prefWidth="985.0" style="-fx-background-color: BB4949;" />
       <ImageView fitHeight="167.0" fitWidth="164.0" layoutX="751.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
@@ -25,14 +25,14 @@
       </Text>
       <AnchorPane layoutX="84.0" layoutY="265.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
          <children>
-            <ProgressIndicator layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="0.05" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: BA3131;" />
+            <ProgressIndicator fx:id="pieChr" layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="0.05" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: BA3131;" />
             <Text fill="#1e1e1e" layoutX="33.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Jost;" text="Your Score">
                <font>
                   <Font size="24.0" />
                </font>
             </Text>
             <Line endX="100.0" layoutX="123.0" layoutY="139.0" startX="-100.0" stroke="#b5b5b5" />
-            <Label layoutX="42.0" layoutY="61.0" style="-fx-text-fill: BA3131;" text="5%" textFill="#33be62">
+            <Label fx:id="scoreInPercent" layoutX="42.0" layoutY="61.0" style="-fx-text-fill: BA3131;" text="5%" textFill="#33be62">
                <font>
                   <Font size="44.0" />
                </font>
@@ -53,7 +53,7 @@
                </font>
             </Text>
             <Line endX="100.0" layoutX="122.0" layoutY="138.0" startX="-100.0" stroke="#b5b5b5" />
-            <Label layoutX="110.0" layoutY="60.0" style="-fx-text-fill: BA3131;" text="4" textFill="#ba3131">
+            <Label fx:id="correct" layoutX="110.0" layoutY="60.0" style="-fx-text-fill: BA3131;" text="4" textFill="#ba3131">
                <font>
                   <Font size="44.0" />
                </font>
@@ -73,13 +73,33 @@
                   <Font size="24.0" />
                </font>
             </Text>
-            <Label layoutX="104.0" layoutY="62.0" style="-fx-text-fill: #ba3030;" text="16" textFill="#ba3030">
+            <Label fx:id="incorrect" layoutX="104.0" layoutY="62.0" style="-fx-text-fill: #ba3030;" text="16" textFill="#ba3030">
                <font>
                   <Font size="43.0" />
                </font>
             </Label>
          </children>
       </AnchorPane>
-      <Button layoutX="818.0" layoutY="482.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="103.0" style="-fx-background-color: BA3030; -fx-background-radius: 6.4; -fx-font-weight: bold;" text="Finish" textFill="WHITE" />
+      <Button fx:id="btnFinish" layoutX="818.0" layoutY="482.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="103.0" style="-fx-background-color: BA3030; -fx-background-radius: 6.4; -fx-font-weight: bold;" text="Finish" textFill="WHITE" />
+      <Label layoutX="84.0" layoutY="206.0" text="Resuklt viewing for">
+         <font>
+            <Font name="Montserrat Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="user" layoutX="325.0" layoutY="206.0" text=".">
+         <font>
+            <Font name="Montserrat Regular" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="84.0" layoutY="489.0" text="You are not capable for the Citizenship for masathai.">
+         <font>
+            <Font name="Montserrat Medium" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="flagImg" fitHeight="57.0" fitWidth="103.0" layoutX="579.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/malay.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

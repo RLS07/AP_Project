@@ -318,6 +318,7 @@ public class QuizController implements Initializable {
         }
         }
         public String username;
+        public int finalMarks;
     @FXML
     void submitButtonClicked(ActionEvent event) {
         if (clickedQuestionsList.size() == 20) {
@@ -326,7 +327,12 @@ public class QuizController implements Initializable {
 
             System.out.println("Current Logged In Username " + username);
             writeResultsToFile("src/main/resources/results.txt", username);
-            DBUtils.changeScene(event, "Result.fxml", "RESULTS", username, nat, "fullName", "gender", "dob");
+            if(finalMarks>=8){
+            DBUtils.changeScene(event, "Result.fxml", "RESULTS", username, nat, "fullName", "gender", "dob");}
+            else{
+                DBUtils.changeScene(event, "Fail.fxml", "RESULTS", username, nat, "fullName", "gender", "dob");}
+
+
         } else {
 
             System.out.println("Error: Not all questions have been answered.");
@@ -373,6 +379,7 @@ public class QuizController implements Initializable {
     public void printCorrectAnswers() {
 
         System.out.println("Number of correct answers: " + correctAnswersCounter);
+        this.finalMarks=correctAnswersCounter;
         String results;
         if (correctAnswersCounter <8) {
             results="fail";
