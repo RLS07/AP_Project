@@ -76,7 +76,7 @@ public class QuizController implements Initializable {
             checkAnswer(1);
             clickedQuestionsList.add(currentQuestionIndex);
             setButtonColorGreen(btnopt1);
-            System.out.println("Current Question Index: " + currentQuestionIndex);
+            System.out.println("Qno: " + currentQuestionIndex);
             updateQuestionsAttemptedMessage();
 
 
@@ -90,7 +90,7 @@ public class QuizController implements Initializable {
             checkAnswer(2);
             clickedQuestionsList.add(currentQuestionIndex);
             setButtonColorGreen(btnopt2);
-            System.out.println("Current Question Index: " + currentQuestionIndex);
+            System.out.println("QNO: " + currentQuestionIndex);
             updateQuestionsAttemptedMessage();
 
 
@@ -104,7 +104,7 @@ public class QuizController implements Initializable {
             checkAnswer(3);
             clickedQuestionsList.add(currentQuestionIndex);
             setButtonColorGreen(btnopt3);
-            System.out.println("Current Question Index: " + currentQuestionIndex);
+            System.out.println("Qno: " + currentQuestionIndex);
             updateQuestionsAttemptedMessage();
         }
 
@@ -116,7 +116,7 @@ public class QuizController implements Initializable {
             checkAnswer(4);
             clickedQuestionsList.add(currentQuestionIndex);
             setButtonColorGreen(btnopt4);
-            System.out.println("Current Question Index: " + currentQuestionIndex);
+            System.out.println("Qno : " + currentQuestionIndex);
             updateQuestionsAttemptedMessage();
         }
 
@@ -325,7 +325,7 @@ public class QuizController implements Initializable {
             printCorrectAnswers();
             printWrongAnswers();
 
-            System.out.println("Current Logged In Username " + username);
+            System.out.println("Logged In Username " + username);
             writeResultsToFile("src/main/resources/results.txt", username);
             if(finalMarks>=8){
             DBUtils.changeScene(event, "Result.fxml", "RESULTS", username, nat, "fullName", "gender", "dob");}
@@ -398,7 +398,7 @@ public class QuizController implements Initializable {
                     questionsAttemptedCounter + "/" + questionsList.size() + "," +
                     (calculatePassOrFail() ? "pass" : "fail");
         } else {
-            System.out.println("Error: User data is empty.");
+            System.out.println("USER DATA MISSING.");
             return "";
         }
     }

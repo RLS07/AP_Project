@@ -20,7 +20,7 @@
       </ImageView>
       <AnchorPane layoutX="74.0" layoutY="255.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
          <children>
-            <ProgressIndicator fx:id="pieChr" layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="1.0" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: #87BC51;" />
+            <ProgressIndicator fx:id="pieChr" layoutX="181.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="1.0" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: #87BC51;" />
             <Text fill="#1e1e1e" layoutX="33.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Jost;" text="Your Score">
                <font>
                   <Font size="24.0" />
@@ -37,7 +37,12 @@
                   <Font size="11.0" />
                </font>
             </Text>
-            <Text fill="#33be62" layoutX="97.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+            <Text fill="#33be62" layoutX="97.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="40%" />
+            <Label layoutX="157.0" layoutY="67.0" style="-fx-text-fill: #33BE62;" text="\%">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
       <AnchorPane layoutX="365.0" layoutY="255.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
@@ -58,7 +63,7 @@
                   <Font size="11.0" />
                </font>
             </Text>
-            <Text fill="#33be62" layoutX="98.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" />
+            <Text fill="#33be62" layoutX="98.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" />
          </children>
       </AnchorPane>
       <AnchorPane layoutX="657.0" layoutY="255.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
@@ -101,5 +106,6 @@
             <Font name="Montserrat Regular" size="24.0" />
          </font>
       </Label>
+      <Button fx:id="otherResults" layoutX="649.0" layoutY="469.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="144.0" style="-fx-background-color: #372df7; -fx-font-family: Jost; -fx-background-radius: 6.4; -fx-font-weight: bold;" text="See other's results" textFill="WHITE" />
    </children>
 </AnchorPane>

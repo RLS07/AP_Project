@@ -1,7 +1,8 @@
 Gga,Gga,5,15,20/20,fail
 Lala,Lala,2,18,20/20,fail
 Subit,Subit,3,17,20/20,fail
-Abhay Maskee,Abhay Maskee,2,18,20/20,fail
+Abhay Maskee,Abhay Maskee,3,17,20/20,fail
 Bhuntu,Bhuntu,18,2,20/20,pass
 Nibisha,Nibisha,6,14,20/20,fail
 Sachin,Sachin,4,16,20/20,fail
+Rojan Lal Shrestha,Rojan Lal Shrestha,4,16,20/20,fail

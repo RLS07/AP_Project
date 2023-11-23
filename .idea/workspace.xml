@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="linked to resultpage now all result page pending almost done">
+    <list default="true" id="8cc2833b-f04f-4b16-85eb-1d823a082883" name="Changes" comment="FINAL TOUCH UPS DONE- rojan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/AllResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/AllResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/FailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/FailController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Fail.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Fail.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/Result.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/allResult.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/allResult.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo5/signed-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo5/QuizController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Fail.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Fail.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/signed-in.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/QuizController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/Result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/Result.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo5/ResultController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo5/ResultController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/results.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +118,7 @@
       <workItem from="1700535748878" duration="12408000" />
       <workItem from="1700587963499" duration="2273000" />
       <workItem from="1700626032326" duration="28141000" />
-      <workItem from="1700710337712" duration="12663000" />
+      <workItem from="1700710337712" duration="16733000" />
     </task>
     <task id="LOCAL-00001" summary="changed button color of signup">
       <option name="closed" value="true" />
@@ -250,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700715932326</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="FINAL TOUCH UPS DONE- rojan">
+      <option name="closed" value="true" />
+      <created>1700727420475</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1700727420475</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,6 +304,7 @@
     <MESSAGE value="sent untracked files" />
     <MESSAGE value="some changes" />
     <MESSAGE value="linked to resultpage now all result page pending almost done" />
-    <option name="LAST_COMMIT_MESSAGE" value="linked to resultpage now all result page pending almost done" />
+    <MESSAGE value="FINAL TOUCH UPS DONE- rojan" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINAL TOUCH UPS DONE- rojan" />
   </component>
 </project>
