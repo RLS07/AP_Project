@@ -1,5 +1,7 @@
 package com.example.demo5;
 
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -20,6 +22,8 @@ public class FailController implements Initializable {
     private ImageView flagImg;
 
     public String uname;
+    @FXML
+    private Button otherResults;
 
     @FXML
     private ProgressIndicator pieChr;
@@ -39,6 +43,15 @@ public class FailController implements Initializable {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         readAndSetValues();
         btnFinish.setOnAction(event -> exitApplication());
+        otherResults.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                DBUtils.changeScene(event,"allResult.fxml","ALL RESULTS!!",null,null,null,null,null);
+                System.out.println("HELO");
+
+
+            }
+        });
 
 
 

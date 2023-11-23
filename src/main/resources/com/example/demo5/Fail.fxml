@@ -25,14 +25,14 @@
       </Text>
       <AnchorPane layoutX="84.0" layoutY="265.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
          <children>
-            <ProgressIndicator fx:id="pieChr" layoutX="148.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="0.05" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: BA3131;" />
+            <ProgressIndicator fx:id="pieChr" layoutX="181.0" layoutY="58.0" minHeight="64.0" minWidth="75.0" prefHeight="64.0" prefWidth="74.0" progress="0.05" style="-fx-min-height: 71; -fx-min-width: 71; -fx-max-height: 200; -fx-max-width: 200; -fx-progress-color: BA3131;" />
             <Text fill="#1e1e1e" layoutX="33.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-family: Jost;" text="Your Score">
                <font>
                   <Font size="24.0" />
                </font>
             </Text>
             <Line endX="100.0" layoutX="123.0" layoutY="139.0" startX="-100.0" stroke="#b5b5b5" />
-            <Label fx:id="scoreInPercent" layoutX="42.0" layoutY="61.0" style="-fx-text-fill: BA3131;" text="5%" textFill="#33be62">
+            <Label fx:id="scoreInPercent" layoutX="40.0" layoutY="61.0" style="-fx-text-fill: BA3131;" text="5" textFill="#33be62">
                <font>
                   <Font size="44.0" />
                </font>
@@ -43,6 +43,11 @@
                </font>
             </Text>
             <Text fill="#33be62" layoutX="97.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%" />
+            <Label layoutX="155.0" layoutY="61.0" style="-fx-text-fill: BA3131;" text="\%" textFill="#33be62">
+               <font>
+                  <Font size="44.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
       <AnchorPane layoutX="375.0" layoutY="265.0" prefHeight="166.0" prefWidth="255.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 4;">
@@ -81,7 +86,7 @@
          </children>
       </AnchorPane>
       <Button fx:id="btnFinish" layoutX="818.0" layoutY="482.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="103.0" style="-fx-background-color: BA3030; -fx-background-radius: 6.4; -fx-font-weight: bold;" text="Finish" textFill="WHITE" />
-      <Label layoutX="84.0" layoutY="206.0" text="Resuklt viewing for">
+      <Label layoutX="84.0" layoutY="206.0" text="Result viewing for">
          <font>
             <Font name="Montserrat Regular" size="24.0" />
          </font>
@@ -101,5 +106,6 @@
             <Image url="@../../../images/malay.png" />
          </image>
       </ImageView>
+      <Button fx:id="otherResults" layoutX="700.0" layoutY="485.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="103.0" style="-fx-background-color: #8634eb; -fx-background-radius: 6.4; -fx-font-weight: bold;" text="Others Result" textFill="WHITE" />
    </children>
 </AnchorPane>
